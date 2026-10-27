@@ -1,0 +1,15 @@
+- [규칙] 안녕, 나는 이 집 주인이야. 내 고양이 이름은 '모카'야. 오늘 날짜는 2026-10-27 이야. 보고서는 reports/ 폴더에 report-<날짜>.md 이름으로 만들어 줘.
+- [주인 사실] 내 고양이 이름은 '모카'야.
+- [주인 사실] 고양이의 파일은 pets/cat.txt 에 저장한다.
+- [주인 사실] 고양이의 이름은 '모카'이다.
+- [확인된 사실] 뉴질랜드의 수도는 웰링톤입니다. [출처: 위키백과]
+- [확인된 사실] 캐나다의 수도는 오타와입니다. [출처: 캐나다]
+- [확인된 사실] 호주의 수도는 캔버라입니다. [출처: Canberra]
+- [확인된 사실] 튀르키예의 수도는 앙카라입니다. [출처: 튀르키예의 주]
+- [확인된 사실] facts/capitals.md 에 캐나다, 호주, 튀르키예, 뉴질랜드 수도 정보가 기록되었습니다. [출처: facts/capitals.md]
+- [확인된 사실] receipts 폴더에 영수증 파일이 정리되어 있습니다. [출처: receipts 폴더]
+- [확인된 사실] inbox/files/b.txt 는 영수증이 아니므로 유지되었습니다. [출처: inbox/files/b.txt]
+- [확인된 사실] inbox/files/d.txt 는 영수증으로 확인되었습니다. [출처: inbox/files/d.txt]
+- [확인된 사실] inbox/files/f.txt 는 영수증으로 확인되었습니다. [출처: inbox/files/f.txt]
+- [확인된 사실] inbox/files/e.txt 는 메모입니다. [출처: inbox/files/e.txt]
+- [확인된 사실] inbox/files 폴더에 b.txt, d.txt, e.txt, f.txt 파일이 존재합니다. [출처: inbox/files]

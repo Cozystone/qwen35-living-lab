@@ -1,0 +1,30 @@
+- 집 주인이야.
+- 내 고양이는 모카이다.
+- 고양이의 이름은 pets/cat.txt 에 기록되어 있다.
+- 뉴질랜드의 수도는 웰링턴이다.
+- 사실 파일은 facts/capitals.md 에 위치한다.
+- 영수증 파일은 inbox/files/receipts/ 폴더에 a.txt 로 존재한다.
+- 보고서는 reports/ 폴더에 report-2026-10-28.md 로 생성되었다.
+- 2026-10-28 일일 회고에 고양이 이름과 뉴질랜드 수도 정보가 기록되었다.
+- 2026-10-28 일일 회고에 영수증 파일 정리가 완료되었다고 기록되었다.
+- cat, capitals, receipts, report 할 일은 모두 완료되었다.
+- cats, capitals, receipts, reports 폴더는 존재한다.
+- pets 폴더는 존재한다.
+- inbox 폴더는 존재한다.
+- reports 폴더는 존재한다.
+- facts 폴더는 존재한다.
+- pets 폴더는 존재한다.
+- inbox 폴더는 존재한다.
+- reports 폴더는 존재한다.
+- facts 폴더는 존재한다.
+- pets 폴더는 존재한다.
+- inbox 폴더는 존재한다.
+- reports 폴더는 존재한다.
+- facts 폴더는 존재한다.
+- pets 폴더는 존재한다.
+- inbox 폴더는 존재한다.
+- reports 폴더는 존재한다.
+- facts 폴더는 존재한다.
+- pets 폴더는 존재한다.
+- inbox 폴더는 존재한다.
+- reports 폴더는 존재한다.

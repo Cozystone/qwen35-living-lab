@@ -1,0 +1,6 @@
+- [주인 사실] 집주인은 서윤이다.
+- [주인 사실] 고양이는 모찌이다.
+- [확인된 사실] 일본의 수도는 도쿄입니다. (출처: Capital punishment in Japan, Capital in the Anthropocene, Japan)
+- [확인된 사실] 이집트의 수도는 카이로입니다. (출처: 이집트, 예루살렘, 알렉산드리아 콥트 정교회)
+- [확인된 사실] 케냐의 수도는 내로비입니다. (출처: Nairobi, Shakahola Forest, Kenya)
+- [확인된 사실] 노르바니아는 실제 국가인지 픽션인지 확인되지 않았습니다. (출처: The Scorpion King 4: Quest for Power)

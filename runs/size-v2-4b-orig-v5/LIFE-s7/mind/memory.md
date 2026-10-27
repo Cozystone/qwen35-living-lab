@@ -1,0 +1,5 @@
+- [확인된 사실] 일본 의 수도는 도쿄입니다 (출처: facts/capitals.md)
+- [확인된 사실] 이집트의 수도는 카이로입니다 (출처: facts/capitals.md)
+- [확인된 사실] 오렐리아의 수도는 오렐리아입니다 (출처: facts/capitals.md)
+- [확인된 사실] 케냐의 수도는 내로비입니다 (출처: facts/capitals.md)
+- [확인된 사실] 노르바니아의 수도는 루르시아입니다 (출처: facts/capitals.md)

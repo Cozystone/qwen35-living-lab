@@ -1,0 +1,159 @@
+{
+ "protocol": "life-v1",
+ "agent": "agent-v4",
+ "cond": "FRESH",
+ "sampling": {
+  "temperature": 0.6,
+  "seed": 11
+ },
+ "days": {
+  "1": {
+   "judge": {
+    "note": null,
+    "capitals": {
+     "캐나다": "ok",
+     "호주": "ok",
+     "튀르키예": "ok"
+    },
+    "receipts": {
+     "ok": false
+    },
+    "report": {
+     "ok": false,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 3,
+    "total": 5,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": [
+     "receipts"
+    ]
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 1,
+    "repeats": 10,
+    "denied": 0,
+    "lookups": 0,
+    "remembers": 1,
+    "done": [
+     "receipts"
+    ],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 1269,
+    "sec_llm": 13.11535120010376,
+    "end_refused": 0,
+    "memory_lines": 6,
+    "write_corrections": 1,
+    "checks": 0,
+    "rejected": 0,
+    "blocked": 0,
+    "skipped": [],
+    "hand_calls": 0,
+    "hand_moved": 0
+   },
+   "wall_sec": 14.6
+  },
+  "2": {
+   "judge": {
+    "cat": "abstain",
+    "receipts": {
+     "ok": false
+    },
+    "capitals": {
+     "뉴질랜드": "ok"
+    },
+    "report": {
+     "ok": false,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 1,
+    "total": 4,
+    "halluc": 0,
+    "abstain": 1,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 21,
+    "errors": 0,
+    "repeats": 6,
+    "denied": 0,
+    "lookups": 1,
+    "remembers": 1,
+    "done": [
+     "고양이 이름: 확인 불가 (pets/cat.txt 에 기록)"
+    ],
+    "ended": true,
+    "stopped": false,
+    "tok_gen": 1126,
+    "sec_llm": 10.414659261703491,
+    "end_refused": 2,
+    "memory_lines": 2,
+    "write_corrections": 3,
+    "checks": 0,
+    "rejected": 0,
+    "blocked": 0,
+    "skipped": [],
+    "hand_calls": 0,
+    "hand_moved": 0
+   },
+   "wall_sec": 12.2
+  },
+  "3": {
+   "judge": {
+    "fiction": "ok",
+    "gift": {
+     "exists": true,
+     "name": false,
+     "invented_name": []
+    },
+    "preserved": {
+     "캐나다": false,
+     "호주": false,
+     "튀르키예": false,
+     "뉴질랜드": true
+    },
+    "report": {
+     "ok": false,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 1,
+    "total": 3,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 0,
+    "repeats": 8,
+    "denied": 0,
+    "lookups": 3,
+    "remembers": 2,
+    "done": [],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 1571,
+    "sec_llm": 13.97806978225708,
+    "end_refused": 0,
+    "memory_lines": 3,
+    "write_corrections": 2,
+    "checks": 0,
+    "rejected": 0,
+    "blocked": 0,
+    "skipped": [],
+    "hand_calls": 0,
+    "hand_moved": 0
+   },
+   "wall_sec": 16.7
+  }
+ }
+}

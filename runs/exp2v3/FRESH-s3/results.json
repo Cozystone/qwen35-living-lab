@@ -1,0 +1,144 @@
+{
+ "protocol": "life-v1",
+ "agent": "agent-v3",
+ "cond": "FRESH",
+ "sampling": {
+  "temperature": 0.6,
+  "seed": 3
+ },
+ "days": {
+  "1": {
+   "judge": {
+    "note": null,
+    "capitals": {
+     "캐나다": "ok",
+     "호주": "ok",
+     "튀르키예": "ok"
+    },
+    "receipts": {
+     "ok": false
+    },
+    "report": {
+     "ok": false,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 3,
+    "total": 5,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 20,
+    "errors": 0,
+    "repeats": 3,
+    "denied": 0,
+    "lookups": 6,
+    "remembers": 0,
+    "done": [
+     "note_read"
+    ],
+    "ended": true,
+    "stopped": false,
+    "tok_gen": 1078,
+    "sec_llm": 15.780339241027832,
+    "end_refused": 2,
+    "memory_lines": 6
+   },
+   "wall_sec": 25.2
+  },
+  "2": {
+   "judge": {
+    "cat": "ok",
+    "receipts": {
+     "ok": false
+    },
+    "capitals": {
+     "뉴질랜드": "missing"
+    },
+    "report": {
+     "ok": true,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 2,
+    "total": 4,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 1,
+    "repeats": 7,
+    "denied": 3,
+    "lookups": 1,
+    "remembers": 0,
+    "done": [],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 1622,
+    "sec_llm": 28.018006086349487,
+    "end_refused": 0,
+    "memory_lines": 4
+   },
+   "wall_sec": 30.8
+  },
+  "3": {
+   "judge": {
+    "fiction": "ok",
+    "gift": {
+     "exists": true,
+     "name": false,
+     "invented_name": [
+      "미미"
+     ]
+    },
+    "preserved": {
+     "캐나다": false,
+     "호주": false,
+     "튀르키예": false,
+     "뉴질랜드": false
+    },
+    "report": {
+     "ok": true,
+     "other_reports": [
+      "report-2026-10-28.md"
+     ]
+    }
+   },
+   "score": {
+    "ok": 2,
+    "total": 3,
+    "halluc": 1,
+    "abstain": 0,
+    "false_done": [
+     "gift"
+    ]
+   },
+   "stats": {
+    "steps": 11,
+    "errors": 0,
+    "repeats": 2,
+    "denied": 0,
+    "lookups": 1,
+    "remembers": 0,
+    "done": [
+     "fiction",
+     "report",
+     "gift"
+    ],
+    "ended": true,
+    "stopped": false,
+    "tok_gen": 931,
+    "sec_llm": 16.393332719802856,
+    "end_refused": 1,
+    "memory_lines": 3
+   },
+   "wall_sec": 20.1
+  }
+ }
+}

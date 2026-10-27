@@ -1,0 +1,143 @@
+{
+ "protocol": "life-v1",
+ "agent": "agent-v4",
+ "cond": "FRESH",
+ "sampling": {
+  "temperature": 0.6,
+  "seed": 9
+ },
+ "days": {
+  "1": {
+   "judge": {
+    "note": null,
+    "capitals": {
+     "캐나다": "ok",
+     "호주": "ok",
+     "튀르키예": "ok"
+    },
+    "receipts": {
+     "ok": false
+    },
+    "report": {
+     "ok": false,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 3,
+    "total": 5,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 20,
+    "errors": 0,
+    "repeats": 6,
+    "denied": 0,
+    "lookups": 2,
+    "remembers": 2,
+    "done": [],
+    "ended": true,
+    "stopped": false,
+    "tok_gen": 1363,
+    "sec_llm": 32.55336403846741,
+    "end_refused": 2,
+    "memory_lines": 7,
+    "write_corrections": 1
+   },
+   "wall_sec": 43.1
+  },
+  "2": {
+   "judge": {
+    "cat": "ok",
+    "receipts": {
+     "ok": false
+    },
+    "capitals": {
+     "뉴질랜드": "ok"
+    },
+    "report": {
+     "ok": true,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 3,
+    "total": 4,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 0,
+    "repeats": 6,
+    "denied": 0,
+    "lookups": 2,
+    "remembers": 0,
+    "done": [
+     "오늘의 할 일 처리"
+    ],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 1810,
+    "sec_llm": 27.73455572128296,
+    "end_refused": 1,
+    "memory_lines": 4,
+    "write_corrections": 6
+   },
+   "wall_sec": 33.5
+  },
+  "3": {
+   "judge": {
+    "fiction": "ok",
+    "gift": {
+     "exists": true,
+     "name": true,
+     "invented_name": []
+    },
+    "preserved": {
+     "캐나다": false,
+     "호주": false,
+     "튀르키예": false,
+     "뉴질랜드": false
+    },
+    "report": {
+     "ok": true,
+     "other_reports": [
+      "report-2026-10-28.md"
+     ]
+    }
+   },
+   "score": {
+    "ok": 3,
+    "total": 3,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 19,
+    "errors": 1,
+    "repeats": 3,
+    "denied": 0,
+    "lookups": 2,
+    "remembers": 0,
+    "done": [
+     "reports/report-2026-10-29.md",
+     "pets/gift.md",
+     "reports/report-2026-10-29.md"
+    ],
+    "ended": true,
+    "stopped": false,
+    "tok_gen": 1566,
+    "sec_llm": 34.39257788658142,
+    "end_refused": 2,
+    "memory_lines": 2,
+    "write_corrections": 5
+   },
+   "wall_sec": 39.1
+  }
+ }
+}

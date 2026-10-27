@@ -1,0 +1,124 @@
+{
+ "protocol": "life-v1",
+ "cond": "FRESH",
+ "days": {
+  "1": {
+   "judge": {
+    "note": null,
+    "capitals": {
+     "캐나다": "ok",
+     "호주": "abstain",
+     "튀르키예": "abstain"
+    },
+    "receipts": {
+     "ok": false
+    },
+    "report": {
+     "ok": false,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 1,
+    "total": 5,
+    "halluc": 0,
+    "abstain": 2,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 6,
+    "errors": 0,
+    "repeats": 0,
+    "denied": 0,
+    "lookups": 3,
+    "remembers": 0,
+    "done": [],
+    "ended": true,
+    "stopped": false,
+    "tok_gen": 458,
+    "sec_llm": 2.7053754329681396
+   },
+   "wall_sec": 54.3
+  },
+  "2": {
+   "judge": {
+    "cat": "abstain",
+    "receipts": {
+     "ok": false
+    },
+    "capitals": {
+     "뉴질랜드": "ok"
+    },
+    "report": {
+     "ok": false,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 1,
+    "total": 4,
+    "halluc": 0,
+    "abstain": 1,
+    "false_done": [
+     "cat"
+    ]
+   },
+   "stats": {
+    "steps": 13,
+    "errors": 0,
+    "repeats": 1,
+    "denied": 0,
+    "lookups": 1,
+    "remembers": 0,
+    "done": [
+     "cat"
+    ],
+    "ended": true,
+    "stopped": false,
+    "tok_gen": 747,
+    "sec_llm": 5.341077089309692
+   },
+   "wall_sec": 50.7
+  },
+  "3": {
+   "judge": {
+    "fiction": "ok",
+    "gift": {
+     "exists": true,
+     "name": false
+    },
+    "preserved": {
+     "캐나다": false,
+     "호주": false,
+     "튀르키예": false,
+     "뉴질랜드": false
+    },
+    "report": {
+     "ok": false,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 1,
+    "total": 3,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 5,
+    "errors": 0,
+    "repeats": 0,
+    "denied": 0,
+    "lookups": 1,
+    "remembers": 0,
+    "done": [],
+    "ended": true,
+    "stopped": false,
+    "tok_gen": 430,
+    "sec_llm": 2.6766090393066406
+   },
+   "wall_sec": 9.4
+  }
+ }
+}

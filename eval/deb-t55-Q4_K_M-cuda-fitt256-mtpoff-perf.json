@@ -1,0 +1,42 @@
+{
+ "summary": {
+  "label": "deb-t55-Q4_K_M-cuda-fitt256-mtpoff-perf",
+  "gen_tok_s": 7.1,
+  "gen_tokens": 570,
+  "draft_accept_rate": null
+ },
+ "rows": [
+  {
+   "id": "ko",
+   "gen_tok_s": 7.0997875688945635,
+   "gen_n": 131,
+   "prompt_tok_s": 21.08236881496005,
+   "draft_n": null,
+   "draft_n_accepted": null
+  },
+  {
+   "id": "en",
+   "gen_tok_s": 7.098129301500051,
+   "gen_n": 159,
+   "prompt_tok_s": 17.84187433007193,
+   "draft_n": null,
+   "draft_n_accepted": null
+  },
+  {
+   "id": "code",
+   "gen_tok_s": 7.097367903091525,
+   "gen_n": 225,
+   "prompt_tok_s": 24.39398374663711,
+   "draft_n": null,
+   "draft_n_accepted": null
+  },
+  {
+   "id": "json",
+   "gen_tok_s": 7.096001941676382,
+   "gen_n": 55,
+   "prompt_tok_s": 22.765919068908932,
+   "draft_n": null,
+   "draft_n_accepted": null
+  }
+ ]
+}

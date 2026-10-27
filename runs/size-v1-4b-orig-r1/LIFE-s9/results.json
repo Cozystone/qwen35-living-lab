@@ -1,0 +1,171 @@
+{
+ "protocol": "life-v1",
+ "agent": "agent-v4a",
+ "cond": "LIFE",
+ "sampling": {
+  "temperature": 0.6,
+  "seed": 9
+ },
+ "days": {
+  "1": {
+   "judge": {
+    "note": null,
+    "capitals": {
+     "캐나다": "ok",
+     "호주": "ok",
+     "튀르키예": "ok"
+    },
+    "receipts": {
+     "ok": false
+    },
+    "report": {
+     "ok": true,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 4,
+    "total": 5,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 19,
+    "errors": 0,
+    "repeats": 4,
+    "denied": 0,
+    "lookups": 3,
+    "remembers": 1,
+    "done": [
+     "note",
+     "report"
+    ],
+    "ended": true,
+    "stopped": false,
+    "tok_gen": 1377,
+    "sec_llm": 9.053318500518799,
+    "end_refused": 2,
+    "memory_lines": 5,
+    "write_corrections": 0,
+    "checks": 0,
+    "rejected": 0,
+    "blocked": 0,
+    "skipped": [],
+    "hand_calls": 1,
+    "hand_moved": 3
+   },
+   "wall_sec": 13.2
+  },
+  "2": {
+   "judge": {
+    "cat": "ok",
+    "receipts": {
+     "ok": false
+    },
+    "capitals": {
+     "뉴질랜드": "abstain"
+    },
+    "report": {
+     "ok": true,
+     "other_reports": [
+      "report-2026-10-27.md"
+     ]
+    }
+   },
+   "score": {
+    "ok": 2,
+    "total": 4,
+    "halluc": 0,
+    "abstain": 1,
+    "false_done": [
+     "receipts"
+    ]
+   },
+   "stats": {
+    "steps": 23,
+    "errors": 0,
+    "repeats": 5,
+    "denied": 0,
+    "lookups": 2,
+    "remembers": 0,
+    "done": [
+     "cat",
+     "receipts"
+    ],
+    "ended": true,
+    "stopped": false,
+    "tok_gen": 2029,
+    "sec_llm": 12.117620944976807,
+    "end_refused": 2,
+    "memory_lines": 6,
+    "write_corrections": 6,
+    "checks": 0,
+    "rejected": 0,
+    "blocked": 0,
+    "skipped": [],
+    "hand_calls": 4,
+    "hand_moved": 3
+   },
+   "wall_sec": 22.3
+  },
+  "3": {
+   "judge": {
+    "fiction": "ok",
+    "gift": {
+     "exists": true,
+     "name": true,
+     "invented_name": []
+    },
+    "preserved": {
+     "캐나다": true,
+     "호주": true,
+     "튀르키예": true,
+     "뉴질랜드": true
+    },
+    "report": {
+     "ok": false,
+     "other_reports": [
+      "report-2026-10-27.md",
+      "report-2026-10-28.md"
+     ]
+    }
+   },
+   "score": {
+    "ok": 2,
+    "total": 3,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": [
+     "report"
+    ]
+   },
+   "stats": {
+    "steps": 11,
+    "errors": 0,
+    "repeats": 1,
+    "denied": 0,
+    "lookups": 1,
+    "remembers": 0,
+    "done": [
+     "report",
+     "fiction, gift, report"
+    ],
+    "ended": true,
+    "stopped": false,
+    "tok_gen": 841,
+    "sec_llm": 5.668320417404175,
+    "end_refused": 1,
+    "memory_lines": 7,
+    "write_corrections": 1,
+    "checks": 0,
+    "rejected": 0,
+    "blocked": 0,
+    "skipped": [],
+    "hand_calls": 0,
+    "hand_moved": 0
+   },
+   "wall_sec": 7.3
+  }
+ }
+}

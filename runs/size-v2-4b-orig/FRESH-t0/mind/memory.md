@@ -1,0 +1,3 @@
+- [확인된 사실] ... (출처: facts/capitals.md) 오렐리아: 수도 아님
+- [확인된 사실] ... (출처: facts/capitals.md) 케냐: 나이로비
+- [확인된 사실] ... (출처: facts/capitals.md) 노르바니아: 수도 없음 (가공 세계)

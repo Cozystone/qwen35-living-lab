@@ -1,0 +1,151 @@
+{
+ "protocol": "life-v1",
+ "agent": "agent-v3",
+ "cond": "FRESH",
+ "sampling": {
+  "temperature": 0.6,
+  "seed": 7
+ },
+ "days": {
+  "1": {
+   "judge": {
+    "note": null,
+    "capitals": {
+     "캐나다": "ok",
+     "호주": "ok",
+     "튀르키예": "ok"
+    },
+    "receipts": {
+     "ok": false
+    },
+    "report": {
+     "ok": false,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 3,
+    "total": 5,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 0,
+    "repeats": 3,
+    "denied": 0,
+    "lookups": 6,
+    "remembers": 0,
+    "done": [
+     "day 1 tasks",
+     "note"
+    ],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 1457,
+    "sec_llm": 32.018245697021484,
+    "end_refused": 2,
+    "memory_lines": 8
+   },
+   "wall_sec": 44.7
+  },
+  "2": {
+   "judge": {
+    "cat": "abstain",
+    "receipts": {
+     "ok": false
+    },
+    "capitals": {
+     "뉴질랜드": "ok"
+    },
+    "report": {
+     "ok": false,
+     "other_reports": [
+      "d2_report.md"
+     ]
+    }
+   },
+   "score": {
+    "ok": 1,
+    "total": 4,
+    "halluc": 0,
+    "abstain": 1,
+    "false_done": [
+     "receipts"
+    ]
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 1,
+    "repeats": 4,
+    "denied": 1,
+    "lookups": 1,
+    "remembers": 0,
+    "done": [
+     "receipts",
+     "capitals"
+    ],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 2239,
+    "sec_llm": 37.55416750907898,
+    "end_refused": 1,
+    "memory_lines": 13
+   },
+   "wall_sec": 43.8
+  },
+  "3": {
+   "judge": {
+    "fiction": "ok",
+    "gift": {
+     "exists": true,
+     "name": false,
+     "invented_name": [
+      "루카"
+     ]
+    },
+    "preserved": {
+     "캐나다": false,
+     "호주": false,
+     "튀르키예": false,
+     "뉴질랜드": false
+    },
+    "report": {
+     "ok": false,
+     "other_reports": [
+      "d2_report.md",
+      "d3_report.md"
+     ]
+    }
+   },
+   "score": {
+    "ok": 1,
+    "total": 3,
+    "halluc": 1,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 20,
+    "errors": 0,
+    "repeats": 3,
+    "denied": 0,
+    "lookups": 2,
+    "remembers": 0,
+    "done": [
+     "None",
+     "facts/capitals.md 에 벨트라니아 수도 추가",
+     "facts/capitals.md 에 벨트라니아 수도 추가"
+    ],
+    "ended": true,
+    "stopped": false,
+    "tok_gen": 1716,
+    "sec_llm": 35.6700701713562,
+    "end_refused": 2,
+    "memory_lines": 5
+   },
+   "wall_sec": 41.5
+  }
+ }
+}

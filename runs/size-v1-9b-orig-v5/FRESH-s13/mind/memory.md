@@ -1,0 +1,12 @@
+- [주인 사실] 고양이 이름은 '모카'이다.
+- [주인 사실] 보고서는 reports/ 폴더에 report-<날짜>.md 형식으로 작성한다.
+- [주인 사실] 오늘 날짜는 2026-10-28 이다.
+- [확인된 사실] 뉴질랜드의 수도는 웰링턴임 (출처: lookup)
+- [확인된 사실] 캐나다의 수도는 오타와임 (출처: facts/capitals.md)
+- [확인된 사실] 튀르키예의 수도는 확인 불가함 (출처: facts/capitals.md)
+- [확인된 사실] 호주와 뉴질랜드의 수도 정보가 facts/capitals.md 에 존재함 (출처: facts/capitals.md)
+- [확인된 사실] 벨트라니아라는 국가는 존재하지 않음 (출처: lookup)
+- [확인된 사실] facts/capitals.md 파일에 벨트라니아: 확인 불가 기록됨 (출처: facts/capitals.md)
+- [확인된 사실] pets/gift.md 파일에 고양이 이름과 선물 추천 기록됨 (출처: pets/gift.md)
+- [확인된 사실] reports/report-2026-10-28.md 파일이 존재함 (출처: reports/report-2026-10-28.md)
+- [확인된 사실] reports/report-2026-10-29.md 파일이 존재함 (출처: reports/report-2026-10-29.md)

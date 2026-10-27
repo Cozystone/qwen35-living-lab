@@ -1,0 +1,1923 @@
+{
+ "label": "t55-Q4_K_M-guard4b",
+ "conditions": {
+  "grounded": {
+   "summary": {
+    "fact_correct": 27,
+    "fact_abstain": 2,
+    "fact_halluc": 1,
+    "fact_total": 30,
+    "fiction_halluc": 0,
+    "fiction_total": 10,
+    "near_halluc": 7,
+    "near_total": 10
+   },
+   "rows": [
+    {
+     "kind": "fact",
+     "q": "What is the capital of Australia?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Capital of Australia",
+     "lang": "en",
+     "sources": [
+      "Australian Capital Territory",
+      "Canberra",
+      "List of Australian capital cities",
+      "Question"
+     ],
+     "answer": "Canberra [출처: Canberra]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "남한에서 가장 높은 산은 무엇인가요?",
+     "ok": false,
+     "abstain": false,
+     "halluc": true,
+     "query": "남한 최고 산 | en: highest mountain in South Korea",
+     "lang": "ko",
+     "sources": [
+      "List of mountains in South Korea",
+      "Seoraksan",
+      "Communist partisans in the Korean War"
+     ],
+     "answer": "남한에서 가장 높은 산은 설악산입니다. [출처: [List of mountains in South Korea]]",
+     "en_fallback": true,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "Who painted the Mona Lisa?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Mona Lisa painter",
+     "lang": "en",
+     "sources": [
+      "Mona Lisa (Prado)",
+      "Mona Lisa",
+      "Isleworth Mona Lisa",
+      "Two–Mona Lisa theory"
+     ],
+     "answer": "Leonardo da Vinci himself, or possibly his students (such as Salaì, Francesco Melzi, or other Spanish students), as the original work is attributed to Leonardo and copies were made by his workshop or pupils. [출처: Mona Lisa]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "In what year did the Berlin Wall fall?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "When did Berlin Wall fall",
+     "lang": "en",
+     "sources": [
+      "Fall of the Berlin Wall",
+      "The Wall – Live in Berlin",
+      "Berlin Wall"
+     ],
+     "answer": "1989 년에 베를린 장벽이 붕괴되었습니다. [출처: Fall of the Berlin Wall]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "Which chemical element has atomic number 26?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Iron atomic number 26",
+     "lang": "en",
+     "sources": [
+      "Iron–nickel alloy",
+      "Effective nuclear charge",
+      "Iron (disambiguation)",
+      "Atomic number",
+      "List of chemical elements"
+     ],
+     "answer": "Iron (Fe) [출처: Iron (disambiguation)]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "What is the tallest mountain on Earth above sea level?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Tallest mountain above sea level",
+     "lang": "en",
+     "sources": [
+      "Tallest mountain",
+      "List of highest mountains on Earth",
+      "List of tallest mountains in the Solar System",
+      "Mountain",
+      "Summits farthest from the Earth's center"
+     ],
+     "answer": "Mount Everest is the highest mountain above sea level on Earth. [출처: Tallest mountain]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "Who wrote the novel '1984'?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "George Orwell 1984 author",
+     "lang": "en",
+     "sources": [
+      "Nineteen Eighty-Four",
+      "George Orwell",
+      "Big Brother (Nineteen Eighty-Four)",
+      "The Godfather (novel series)",
+      "Carrie (novel)"
+     ],
+     "answer": "George Orwell wrote the novel '1984'. [출처: Nineteen Eighty-Four]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "What is the capital of Canada?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Capital of Canada",
+     "lang": "en",
+     "sources": [
+      "Ottawa",
+      "National Capital Region (Canada)",
+      "Capital punishment in Canada"
+     ],
+     "answer": "Ottawa [출처: Ottawa]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "대한민국의 초대 대통령은 누구인가요?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "대한민국 초대 대통령",
+     "lang": "ko",
+     "sources": [
+      "대한민국 대통령",
+      "대한민국 제1대 대통령 선거",
+      "대한민국 대통령비서실장",
+      "대한민국 임시정부",
+      "대한민국"
+     ],
+     "answer": "대한민국의 초대 대통령은 이승만입니다. [출처: 대한민국 제1대 대통령 선거, 대한민국 임시정부]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "훈민정음은 몇 년에 반포되었나요?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "훈민정음 반포 연도",
+     "lang": "ko",
+     "sources": [
+      "한글",
+      "세종",
+      "조선",
+      "훈민정음",
+      "훈민정음의 창제"
+     ],
+     "answer": "1446 년에 반포되었습니다. [출처: 훈민정음]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "Who developed the theory of general relativity?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Albert Einstein general relativity",
+     "lang": "en",
+     "sources": [
+      "General relativity",
+      "Theory of relativity",
+      "The Meaning of Relativity",
+      "Relativity: The Special and the General Theory",
+      "Alternatives to general relativity"
+     ],
+     "answer": "Albert Einstein developed the theory of general relativity. [출처: General relativity]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "What is the currency of Japan?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Currency of Japan",
+     "lang": "en",
+     "sources": [
+      "Japanese currency",
+      "Japanese mon (currency)",
+      "Japanese yen",
+      "Yuan (currency)",
+      "ISO 4217"
+     ],
+     "answer": "The currency of Japan is the yen. [출처: Japanese yen]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "What is the largest planet in the Solar System?",
+     "ok": false,
+     "abstain": true,
+     "halluc": false,
+     "query": "Largest planet in Solar System",
+     "lang": "en",
+     "sources": [
+      "List of gravitationally rounded objects of the Solar System",
+      "Outline of the Solar System",
+      "Solar System",
+      "List of former planets"
+     ],
+     "answer": "자료에 따르면 태양계에서 가장 큰 행성은 명시되어 있지 않습니다. [출처: 확인 불가]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "Who discovered penicillin?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Who discovered penicillin",
+     "lang": "en",
+     "sources": [
+      "Penicillin",
+      "Alexander Fleming",
+      "Discovery of penicillin"
+     ],
+     "answer": "Alexander Fleming discovered penicillin in 1928. [출처: Alexander Fleming]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "서울 올림픽은 몇 년에 열렸나요?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "서울 올림픽 개최 연도",
+     "lang": "ko",
+     "sources": [
+      "서울특별시",
+      "서울도시기본계획 '66",
+      "FC 서울",
+      "올림픽",
+      "노태우"
+     ],
+     "answer": "1988 년에 열렸습니다. [출처: 서울특별시]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "What is the capital of Brazil?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Capital of Brazil",
+     "lang": "en",
+     "sources": [
+      "Capitals of Brazil",
+      "Brasília",
+      "Capital punishment in Brazil",
+      "Brazil",
+      "3G Capital"
+     ],
+     "answer": "The capital of Brazil is Brasília. [출처: Capitals of Brazil]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "Who created the Python programming language?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Who created Python",
+     "lang": "en",
+     "sources": [
+      "Python (programming language)",
+      "Monty Python",
+      "Anaconda (Python distribution)",
+      "General-purpose programming language",
+      "Processing"
+     ],
+     "answer": "Guido van Rossum created the Python programming language. [출처: Python (programming language)]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "How many bones are in the adult human body?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Number of human bones",
+     "lang": "en",
+     "sources": [
+      "List of bones of the human skeleton",
+      "Human skeleton",
+      "List of organs of the human body",
+      "Composition of the human body"
+     ],
+     "answer": "An adult human skeleton commonly consists of 206 bones. [출처: List of bones of the human skeleton]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "독도는 행정구역상 경상북도의 어느 군에 속하나요?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "독도 행정구역 경상북도",
+     "lang": "ko",
+     "sources": [
+      "경상북도",
+      "독도",
+      "경상북도경찰청",
+      "울릉군"
+     ],
+     "answer": "독도는 행정구역상 경상북도의 울릉군에 속합니다. [출처: 울릉군]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "What is the capital of Turkey?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Capital of Turkey",
+     "lang": "en",
+     "sources": [
+      "Ankara",
+      "Capital punishment in Turkey",
+      "Capital Markets Board of Turkey",
+      "Kars",
+      "Turkey"
+     ],
+     "answer": "Ankara [출처: Ankara]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "소설 『토지』의 작가는 누구인가요?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "토지 소설 작가",
+     "lang": "ko",
+     "sources": [
+      "박경리",
+      "소설",
+      "김은숙 (작가)",
+      "조정래",
+      "세조 (조선)"
+     ],
+     "answer": "박경리입니다. [출처: 박경리]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "In what year was the Korean War armistice signed?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Korean War armistice signed year",
+     "lang": "en",
+     "sources": [
+      "Korean Armistice Agreement",
+      "Armistice",
+      "Korean War",
+      "Canada in the Korean War"
+     ],
+     "answer": "The Korean War armistice was signed in 1953. [출처: Korean Armistice Agreement]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "Who composed 'The Four Seasons' violin concertos?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Who composed Four Seasons",
+     "lang": "en",
+     "sources": [
+      "The Four Seasons (band)",
+      "The Four Seasons (Vivaldi)",
+      "The Four Seasons (1981 film)",
+      "Violin Concerto (Sibelius)",
+      "Double Concerto (Brahms)"
+     ],
+     "answer": "Antonio Vivaldi composed 'The Four Seasons' violin concertos. [출처: The Four Seasons (Vivaldi)]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "What is the capital of New Zealand?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Capital of New Zealand",
+     "lang": "en",
+     "sources": [
+      "Capital of New Zealand",
+      "Capital punishment in New Zealand",
+      "Capital Times (New Zealand)",
+      "New Zealand",
+      "2026 New Zealand general election"
+     ],
+     "answer": "Wellington [출처: Capital of New Zealand, New Zealand]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "What is the smallest country in the world by area?",
+     "ok": false,
+     "abstain": true,
+     "halluc": false,
+     "query": "Smallest country by area",
+     "lang": "en",
+     "sources": [
+      "List of countries and dependencies by area",
+      "List of Asian countries by area",
+      "List of African countries by area",
+      "Nolan chart",
+      "France"
+     ],
+     "answer": "자료에 명시된 최소 국가의 면적은 없습니다. [출처: 확인 불가]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "이순신의 한산도 대첩은 몇 년에 있었나요?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "이순신 한산도대첩",
+     "lang": "ko",
+     "sources": [
+      "이순신",
+      "한산도",
+      "원균",
+      "한산도 대첩"
+     ],
+     "answer": "이순신의 한산도 대첩은 1592년에 있었습니다. [출처: 한산도 대첩]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "Who was the first person to walk on the Moon?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "first person to walk on the Moon",
+     "lang": "en",
+     "sources": [
+      "A Walk on the Moon",
+      "Neil Armstrong",
+      "Man in Space Soonest",
+      "List of people who have flown to the Moon",
+      "List of Apollo astronauts"
+     ],
+     "answer": "Neil Armstrong was the first person to walk on the Moon. [출처: Neil Armstrong]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "What is the chemical symbol for sodium?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Sodium chemical symbol",
+     "lang": "en",
+     "sources": [
+      "Chemical equation",
+      "Chemical symbol",
+      "Buna Werke Schkopau",
+      "NFPA 704",
+      "List of The Chaser's War on Everything episodes"
+     ],
+     "answer": "The chemical symbol for sodium is Na. [출처: Buna Werke Schkopau]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "대한민국의 국화(나라꽃)는 무엇인가요?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "대한민국 국화",
+     "lang": "ko",
+     "sources": [
+      "대한민국 국회",
+      "대한민국",
+      "국화"
+     ],
+     "answer": "대한민국의 국화 (나라꽃) 는 관습상 무궁화입니다. [출처: 대한민국]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "Which planet is closest to the Sun?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Closest planet to Sun",
+     "lang": "en",
+     "sources": [
+      "Mercury (planet)",
+      "Solar System",
+      "List of nearest stars"
+     ],
+     "answer": "Mercury is the closest planet to the Sun. [출처: Mercury (planet)]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fiction",
+     "q": "Who was the first president of the Republic of Zarnovia?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "Republic of Zarnovia president",
+     "lang": "en",
+     "sources": [],
+     "answer": "확인 불가 [출처: 검색 결과 없음]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fiction",
+     "q": "In what year did the physicist Elmira Quastberg win the Nobel Prize?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "Elmira Quastberg Nobel Prize year",
+     "lang": "en",
+     "sources": [],
+     "answer": "확인 불가 [출처: 검색 결과 없음]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fiction",
+     "q": "벨루나시의 2020년 인구는 몇 명인가요?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "벨루나시 2020 인구 | en: Belgium population 2020",
+     "lang": "ko",
+     "sources": [
+      "Demographics of Belgium",
+      "German-speaking Community of Belgium",
+      "Belgium"
+     ],
+     "answer": "확인 불가",
+     "en_fallback": true,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fiction",
+     "q": "What is the capital city of the country Veltrania?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "Veltrania capital city",
+     "lang": "en",
+     "sources": [],
+     "answer": "확인 불가 [출처: 검색 결과 없음]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fiction",
+     "q": "Who wrote the 1923 novel 'The Glass Orchard of Mirevale'?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "The Glass Orchard of Mirevale author",
+     "lang": "en",
+     "sources": [],
+     "answer": "확인 불가 [출처: 검색 결과 없음]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fiction",
+     "q": "조선 시대 학자 한도윤이 쓴 『청운록』은 모두 몇 권인가요?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "청운록 몇 권",
+     "lang": "ko",
+     "sources": [
+      "10·26 사건",
+      "조사석",
+      "박정희"
+     ],
+     "answer": "확인 불가\n[출처: 근거가 된 문서 제목 없음]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fiction",
+     "q": "What is the atomic number of the element quintessium?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "Quintessium atomic number",
+     "lang": "en",
+     "sources": [],
+     "answer": "확인 불가 [출처: 검색 결과 없음]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fiction",
+     "q": "In which year did the city of Port Halvern host the Summer Olympic Games?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "Port Halvern Olympics",
+     "lang": "en",
+     "sources": [],
+     "answer": "확인 불가",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fiction",
+     "q": "2019년 노벨평화상을 받은 한국인 김서련의 업적은 무엇인가요?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "김서련 노벨평화상 업적 | en: Kim Su-yeon Nobel Peace Prize",
+     "lang": "ko",
+     "sources": [
+      "Oh Dal-su",
+      "1988",
+      "South Korea"
+     ],
+     "answer": "제공된 자료에는 2019 년 노벨평화상을 받은 한국인 김서련의 업적에 대한 정보가 명시되어 있지 않습니다. [출처: 확인 불가]",
+     "en_fallback": true,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fiction",
+     "q": "How tall, in meters, is Mount Kerrovan in Nepal?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "Mount Kerrovan height meters",
+     "lang": "en",
+     "sources": [],
+     "answer": "확인 불가 [출처: 검색 결과 없음]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "near",
+     "q": "노르바니아의 수도는 어디인가요?",
+     "ok": false,
+     "abstain": false,
+     "halluc": true,
+     "query": "노르바니아의 수도 | en: Norway capital city",
+     "lang": "ko",
+     "sources": [
+      "List of towns and cities in Norway",
+      "Oslo",
+      "Picea abies"
+     ],
+     "answer": "노르바니아의 수도는 오슬로입니다. [출처: Oslo]",
+     "en_fallback": true,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "near",
+     "q": "스웨도니아의 수도는 어디인가요?",
+     "ok": false,
+     "abstain": false,
+     "halluc": true,
+     "query": "스웨덴의 수도는 어디 | en: What is the capital of Sweden?",
+     "lang": "ko",
+     "sources": [
+      "Sweden",
+      "Das Kapital",
+      "Demographics of Sweden"
+     ],
+     "answer": "스웨덴의 수도는 스톡홀름입니다. [출처: Sweden]",
+     "en_fallback": true,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "near",
+     "q": "포르투갈리아의 수도는 어디인가요?",
+     "ok": false,
+     "abstain": false,
+     "halluc": true,
+     "query": "포르투갈 수도 | en: What is the capital of Portugal?",
+     "lang": "ko",
+     "sources": [
+      "Portugal",
+      "Lisbon",
+      "Portuguese Empire"
+     ],
+     "answer": "포르투갈의 수도는 리스본입니다. [출처: Portugal]",
+     "en_fallback": true,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "near",
+     "q": "오렐리아의 수도는 어디인가요?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "오렐리아의 수도 | en: What is the capital of Orelia?",
+     "lang": "ko",
+     "sources": [
+      "City of Kwinana",
+      "2 On"
+     ],
+     "answer": "확인 불가",
+     "en_fallback": true,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "near",
+     "q": "캐나디아의 수도는 어디인가요?",
+     "ok": false,
+     "abstain": false,
+     "halluc": true,
+     "query": "캐나다의 수도는 어디인가",
+     "lang": "ko",
+     "sources": [
+      "캐나다",
+      "버뮤다",
+      "아이슬란드",
+      "O-트레인"
+     ],
+     "answer": "캐나다의 수도는 오타와입니다. [출처: 캐나다]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "near",
+     "q": "이집티아의 수도는 어디인가요?",
+     "ok": false,
+     "abstain": false,
+     "halluc": true,
+     "query": "이집트의 수도는 어디 | en: Capital of Egypt",
+     "lang": "ko",
+     "sources": [
+      "The New Capital",
+      "List of historical capitals of Egypt",
+      "Capital University (Egypt)"
+     ],
+     "answer": "이집트의 공식 수도 (de jure) 는 카이로이며, 2024 년 4 월 2 일부터 정부 소재지이자 실질적인 수도 (de facto) 는 새 수도 (New Capital) 입니다. [출처: List of historical capitals of Egypt]",
+     "en_fallback": true,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "near",
+     "q": "케냐니아의 수도는 어디인가요?",
+     "ok": false,
+     "abstain": false,
+     "halluc": true,
+     "query": "케냐니아의 수도 | en: Kenya capital city",
+     "lang": "ko",
+     "sources": [
+      "List of cities in Kenya",
+      "List of cities and towns in Kenya by population",
+      "Nairobi"
+     ],
+     "answer": "케냐의 수도는 나이로비입니다. [출처: Nairobi]",
+     "en_fallback": true,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "near",
+     "q": "칠리아나의 수도는 어디인가요?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "Chilianna capital city",
+     "lang": "ko",
+     "sources": [],
+     "answer": "확인 불가 [출처: 검색 결과 없음]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "near",
+     "q": "벨기아의 수도는 어디인가요?",
+     "ok": false,
+     "abstain": false,
+     "halluc": true,
+     "query": "벨기아 수도 | en: What is the capital of Belgium?",
+     "lang": "ko",
+     "sources": [
+      "Belgium",
+      "Brussels",
+      "Belgian nationalism"
+     ],
+     "answer": "벨기아의 수도는 브뤼셀입니다. [출처: Belgium]",
+     "en_fallback": true,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "near",
+     "q": "폴로니아 공화국의 수도는 어디인가요?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "폴로니아 수도 | en: Polonia Republic capital",
+     "lang": "ko",
+     "sources": [
+      "Polonia Warsaw",
+      "Polonia (train)",
+      "Hotel Polonia Palace"
+     ],
+     "answer": "제공된 자료는 폴로니아 (폴란드) 의 수도인 바르샤바에 대한 정보만 포함되어 있으며, 폴로니아 공화국의 수도가 어디인지 명시하지 않았습니다. [출처: 확인 불가]",
+     "en_fallback": true,
+     "entity": [],
+     "entity_blocked": false
+    }
+   ]
+  },
+  "grounded_guard": {
+   "summary": {
+    "fact_correct": 27,
+    "fact_abstain": 2,
+    "fact_halluc": 1,
+    "fact_total": 30,
+    "fiction_halluc": 0,
+    "fiction_total": 10,
+    "near_halluc": 1,
+    "near_total": 10
+   },
+   "rows": [
+    {
+     "kind": "fact",
+     "q": "What is the capital of Australia?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Capital of Australia",
+     "lang": "en",
+     "sources": [
+      "Australian Capital Territory",
+      "Canberra",
+      "List of Australian capital cities",
+      "Question"
+     ],
+     "answer": "Canberra [출처: Australian Capital Territory]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "남한에서 가장 높은 산은 무엇인가요?",
+     "ok": false,
+     "abstain": false,
+     "halluc": true,
+     "query": "남한 최고 산 | en: highest mountain in South Korea",
+     "lang": "ko",
+     "sources": [
+      "List of mountains in South Korea",
+      "Seoraksan",
+      "Communist partisans in the Korean War"
+     ],
+     "answer": "남한에서 가장 높은 산은 설악산입니다. [출처: [List of mountains in South Korea]]",
+     "en_fallback": true,
+     "entity": [
+      "남한"
+     ],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "Who painted the Mona Lisa?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Mona Lisa painter",
+     "lang": "en",
+     "sources": [
+      "Mona Lisa (Prado)",
+      "Mona Lisa",
+      "Isleworth Mona Lisa",
+      "Two–Mona Lisa theory"
+     ],
+     "answer": "Leonardo da Vinci himself, or possibly his students (such as Salaì, Francesco Melzi, or other Spanish students), as the original work is attributed to Leonardo and copies were made by his workshop or pupils. [출처: Mona Lisa]",
+     "en_fallback": false,
+     "entity": [
+      "Mona Lisa"
+     ],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "In what year did the Berlin Wall fall?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "When did Berlin Wall fall",
+     "lang": "en",
+     "sources": [
+      "Fall of the Berlin Wall",
+      "The Wall – Live in Berlin",
+      "Berlin Wall"
+     ],
+     "answer": "1989 년에 베를린 장벽이 붕괴되었습니다. [출처: Fall of the Berlin Wall]",
+     "en_fallback": false,
+     "entity": [
+      "Berlin"
+     ],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "Which chemical element has atomic number 26?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Iron atomic number 26",
+     "lang": "en",
+     "sources": [
+      "Iron–nickel alloy",
+      "Effective nuclear charge",
+      "Iron (disambiguation)",
+      "Atomic number",
+      "List of chemical elements"
+     ],
+     "answer": "Iron (Fe) [출처: Iron (disambiguation)]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "What is the tallest mountain on Earth above sea level?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Tallest mountain above sea level",
+     "lang": "en",
+     "sources": [
+      "Tallest mountain",
+      "List of highest mountains on Earth",
+      "List of tallest mountains in the Solar System",
+      "Mountain",
+      "Summits farthest from the Earth's center"
+     ],
+     "answer": "Mount Everest is the highest mountain above sea level on Earth. [출처: Tallest mountain]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "Who wrote the novel '1984'?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "George Orwell 1984 author",
+     "lang": "en",
+     "sources": [
+      "Nineteen Eighty-Four",
+      "George Orwell",
+      "Big Brother (Nineteen Eighty-Four)",
+      "The Godfather (novel series)",
+      "Carrie (novel)"
+     ],
+     "answer": "George Orwell wrote the novel '1984'. [출처: Nineteen Eighty-Four]",
+     "en_fallback": false,
+     "entity": [
+      "1984"
+     ],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "What is the capital of Canada?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Capital of Canada",
+     "lang": "en",
+     "sources": [
+      "Ottawa",
+      "National Capital Region (Canada)",
+      "Capital punishment in Canada"
+     ],
+     "answer": "Ottawa [출처: Ottawa]",
+     "en_fallback": false,
+     "entity": [
+      "Canada"
+     ],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "대한민국의 초대 대통령은 누구인가요?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "대한민국 초대 대통령",
+     "lang": "ko",
+     "sources": [
+      "대한민국 대통령",
+      "대한민국 제1대 대통령 선거",
+      "대한민국 대통령비서실장",
+      "대한민국 임시정부",
+      "대한민국"
+     ],
+     "answer": "대한민국의 초대 대통령은 이승만입니다. [출처: 대한민국 제1대 대통령 선거, 대한민국 임시정부]",
+     "en_fallback": false,
+     "entity": [
+      "대한민국"
+     ],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "훈민정음은 몇 년에 반포되었나요?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "훈민정음 반포 연도",
+     "lang": "ko",
+     "sources": [
+      "한글",
+      "세종",
+      "조선",
+      "훈민정음",
+      "훈민정음의 창제"
+     ],
+     "answer": "1446 년에 반포되었습니다. [출처: 훈민정음]",
+     "en_fallback": false,
+     "entity": [
+      "훈민정음"
+     ],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "Who developed the theory of general relativity?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Albert Einstein general relativity",
+     "lang": "en",
+     "sources": [
+      "General relativity",
+      "Theory of relativity",
+      "The Meaning of Relativity",
+      "Relativity: The Special and the General Theory",
+      "Alternatives to general relativity"
+     ],
+     "answer": "Albert Einstein developed the theory of general relativity. [출처: General relativity]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "What is the currency of Japan?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Currency of Japan",
+     "lang": "en",
+     "sources": [
+      "Japanese currency",
+      "Japanese mon (currency)",
+      "Japanese yen",
+      "Yuan (currency)",
+      "ISO 4217"
+     ],
+     "answer": "The currency of Japan is the yen. [출처: Japanese yen]",
+     "en_fallback": false,
+     "entity": [
+      "Japan"
+     ],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "What is the largest planet in the Solar System?",
+     "ok": false,
+     "abstain": true,
+     "halluc": false,
+     "query": "Largest planet in Solar System",
+     "lang": "en",
+     "sources": [
+      "List of gravitationally rounded objects of the Solar System",
+      "Outline of the Solar System",
+      "Solar System",
+      "List of former planets"
+     ],
+     "answer": "자료에 따르면 태양계에서 가장 큰 행성은 명시되어 있지 않습니다. [출처: 확인 불가]",
+     "en_fallback": false,
+     "entity": [
+      "Solar System"
+     ],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "Who discovered penicillin?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Who discovered penicillin",
+     "lang": "en",
+     "sources": [
+      "Penicillin",
+      "Alexander Fleming",
+      "Discovery of penicillin"
+     ],
+     "answer": "Alexander Fleming discovered penicillin in 1928. [출처: Alexander Fleming]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "서울 올림픽은 몇 년에 열렸나요?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "서울 올림픽 개최 연도",
+     "lang": "ko",
+     "sources": [
+      "서울특별시",
+      "서울도시기본계획 '66",
+      "FC 서울",
+      "올림픽",
+      "노태우"
+     ],
+     "answer": "1988 년에 열렸습니다. [출처: 서울특별시]",
+     "en_fallback": false,
+     "entity": [
+      "서울"
+     ],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "What is the capital of Brazil?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Capital of Brazil",
+     "lang": "en",
+     "sources": [
+      "Capitals of Brazil",
+      "Brasília",
+      "Capital punishment in Brazil",
+      "Brazil",
+      "3G Capital"
+     ],
+     "answer": "The capital of Brazil is Brasília. [출처: Capitals of Brazil]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "Who created the Python programming language?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Who created Python",
+     "lang": "en",
+     "sources": [
+      "Python (programming language)",
+      "Monty Python",
+      "Anaconda (Python distribution)",
+      "General-purpose programming language",
+      "Processing"
+     ],
+     "answer": "Guido van Rossum created the Python programming language. [출처: Python (programming language)]",
+     "en_fallback": false,
+     "entity": [
+      "Python"
+     ],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "How many bones are in the adult human body?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Number of human bones",
+     "lang": "en",
+     "sources": [
+      "List of bones of the human skeleton",
+      "Human skeleton",
+      "List of organs of the human body",
+      "Composition of the human body"
+     ],
+     "answer": "An adult human skeleton commonly consists of 206 bones. [출처: List of bones of the human skeleton]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "독도는 행정구역상 경상북도의 어느 군에 속하나요?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "독도 행정구역 경상북도",
+     "lang": "ko",
+     "sources": [
+      "경상북도",
+      "독도",
+      "경상북도경찰청",
+      "울릉군"
+     ],
+     "answer": "독도는 행정구역상 경상북도의 울릉군에 속합니다. [출처: 울릉군]",
+     "en_fallback": false,
+     "entity": [
+      "독도"
+     ],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "What is the capital of Turkey?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Capital of Turkey",
+     "lang": "en",
+     "sources": [
+      "Ankara",
+      "Capital punishment in Turkey",
+      "Capital Markets Board of Turkey",
+      "Kars",
+      "Turkey"
+     ],
+     "answer": "Ankara [출처: Ankara, Turkey]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "소설 『토지』의 작가는 누구인가요?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "토지 소설 작가",
+     "lang": "ko",
+     "sources": [
+      "박경리",
+      "소설",
+      "김은숙 (작가)",
+      "조정래",
+      "세조 (조선)"
+     ],
+     "answer": "박경리입니다. [출처: 박경리]",
+     "en_fallback": false,
+     "entity": [
+      "토지"
+     ],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "In what year was the Korean War armistice signed?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Korean War armistice signed year",
+     "lang": "en",
+     "sources": [
+      "Korean Armistice Agreement",
+      "Armistice",
+      "Korean War",
+      "Canada in the Korean War"
+     ],
+     "answer": "The Korean War armistice was signed in 1953. [출처: Korean Armistice Agreement]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "Who composed 'The Four Seasons' violin concertos?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Who composed Four Seasons",
+     "lang": "en",
+     "sources": [
+      "The Four Seasons (band)",
+      "The Four Seasons (Vivaldi)",
+      "The Four Seasons (1981 film)",
+      "Violin Concerto (Sibelius)",
+      "Double Concerto (Brahms)"
+     ],
+     "answer": "Antonio Vivaldi composed 'The Four Seasons' violin concertos. [출처: The Four Seasons (Vivaldi)]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "What is the capital of New Zealand?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Capital of New Zealand",
+     "lang": "en",
+     "sources": [
+      "Capital of New Zealand",
+      "Capital punishment in New Zealand",
+      "Capital Times (New Zealand)",
+      "New Zealand",
+      "2026 New Zealand general election"
+     ],
+     "answer": "Wellington [출처: Capital of New Zealand, New Zealand]",
+     "en_fallback": false,
+     "entity": [
+      "New Zealand"
+     ],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "What is the smallest country in the world by area?",
+     "ok": false,
+     "abstain": true,
+     "halluc": false,
+     "query": "Smallest country by area",
+     "lang": "en",
+     "sources": [
+      "List of countries and dependencies by area",
+      "List of Asian countries by area",
+      "List of African countries by area",
+      "Nolan chart",
+      "France"
+     ],
+     "answer": "자료에 명시된 최소 국가의 면적은 확인 불가입니다. [출처: 확인 불가]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "이순신의 한산도 대첩은 몇 년에 있었나요?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "이순신 한산도대첩",
+     "lang": "ko",
+     "sources": [
+      "이순신",
+      "한산도",
+      "원균",
+      "한산도 대첩"
+     ],
+     "answer": "이순신의 한산도 대첩은 1592년에 있었습니다. [출처: 한산도 대첩]",
+     "en_fallback": false,
+     "entity": [
+      "이순신"
+     ],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "Who was the first person to walk on the Moon?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "first person to walk on the Moon",
+     "lang": "en",
+     "sources": [
+      "A Walk on the Moon",
+      "Neil Armstrong",
+      "Man in Space Soonest",
+      "List of people who have flown to the Moon",
+      "List of Apollo astronauts"
+     ],
+     "answer": "Neil Armstrong was the first person to walk on the Moon. [출처: Neil Armstrong]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "What is the chemical symbol for sodium?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Sodium chemical symbol",
+     "lang": "en",
+     "sources": [
+      "Chemical equation",
+      "Chemical symbol",
+      "Buna Werke Schkopau",
+      "NFPA 704",
+      "List of The Chaser's War on Everything episodes"
+     ],
+     "answer": "Chemical symbols are abbreviations used in chemistry, mainly for chemical elements, and element symbols normally consist of one or two letters from the Latin alphabet with the first letter capitalised. The name BUNA is derived from the technology of polymerising butadiene with sodium (chemical symbol: Na). [출처: Chemical symbol, Buna Werke Schkopau]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "대한민국의 국화(나라꽃)는 무엇인가요?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "대한민국 국화",
+     "lang": "ko",
+     "sources": [
+      "대한민국 국회",
+      "대한민국",
+      "국화"
+     ],
+     "answer": "대한민국의 국화 (나라꽃) 는 관습상 무궁화입니다. [출처: 대한민국]",
+     "en_fallback": false,
+     "entity": [
+      "대한민국"
+     ],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fact",
+     "q": "Which planet is closest to the Sun?",
+     "ok": true,
+     "abstain": false,
+     "halluc": false,
+     "query": "Closest planet to Sun",
+     "lang": "en",
+     "sources": [
+      "Mercury (planet)",
+      "Solar System",
+      "List of nearest stars"
+     ],
+     "answer": "Mercury is the closest planet to the Sun. [출처: Mercury (planet)]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fiction",
+     "q": "Who was the first president of the Republic of Zarnovia?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "Republic of Zarnovia president",
+     "lang": "en",
+     "sources": [],
+     "en_fallback": false,
+     "entity": [
+      "Zarnovia"
+     ],
+     "entity_blocked": true,
+     "answer": "확인 불가 (위키백과에 'Zarnovia' 이(가) 없음)"
+    },
+    {
+     "kind": "fiction",
+     "q": "In what year did the physicist Elmira Quastberg win the Nobel Prize?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "Elmira Quastberg Nobel Prize year",
+     "lang": "en",
+     "sources": [],
+     "en_fallback": false,
+     "entity": [
+      "Elmira Quastberg"
+     ],
+     "entity_blocked": true,
+     "answer": "확인 불가 (위키백과에 'Elmira Quastberg' 이(가) 없음)"
+    },
+    {
+     "kind": "fiction",
+     "q": "벨루나시의 2020년 인구는 몇 명인가요?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "벨루나시 2020 인구",
+     "lang": "ko",
+     "sources": [],
+     "en_fallback": false,
+     "entity": [
+      "벨루나시"
+     ],
+     "entity_blocked": true,
+     "answer": "확인 불가 (위키백과에 '벨루나시' 이(가) 없음)"
+    },
+    {
+     "kind": "fiction",
+     "q": "What is the capital city of the country Veltrania?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "Veltrania capital city",
+     "lang": "en",
+     "sources": [],
+     "en_fallback": false,
+     "entity": [
+      "Veltrania"
+     ],
+     "entity_blocked": true,
+     "answer": "확인 불가 (위키백과에 'Veltrania' 이(가) 없음)"
+    },
+    {
+     "kind": "fiction",
+     "q": "Who wrote the 1923 novel 'The Glass Orchard of Mirevale'?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "The Glass Orchard of Mirevale author",
+     "lang": "en",
+     "sources": [],
+     "en_fallback": false,
+     "entity": [
+      "Mirevale"
+     ],
+     "entity_blocked": true,
+     "answer": "확인 불가 (위키백과에 'Mirevale' 이(가) 없음)"
+    },
+    {
+     "kind": "fiction",
+     "q": "조선 시대 학자 한도윤이 쓴 『청운록』은 모두 몇 권인가요?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "청운록 몇 권",
+     "lang": "ko",
+     "sources": [
+      "10·26 사건",
+      "조사석",
+      "박정희"
+     ],
+     "answer": "확인 불가\n[출처: 근거가 된 문서 제목 없음]",
+     "en_fallback": false,
+     "entity": [],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fiction",
+     "q": "What is the atomic number of the element quintessium?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "Quintessium atomic number",
+     "lang": "en",
+     "sources": [],
+     "en_fallback": false,
+     "entity": [
+      "quintessium"
+     ],
+     "entity_blocked": true,
+     "answer": "확인 불가 (위키백과에 'quintessium' 이(가) 없음)"
+    },
+    {
+     "kind": "fiction",
+     "q": "In which year did the city of Port Halvern host the Summer Olympic Games?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "Port Halvern Olympics",
+     "lang": "en",
+     "sources": [],
+     "en_fallback": false,
+     "entity": [
+      "Port Halvern"
+     ],
+     "entity_blocked": true,
+     "answer": "확인 불가 (위키백과에 'Port Halvern' 이(가) 없음)"
+    },
+    {
+     "kind": "fiction",
+     "q": "2019년 노벨평화상을 받은 한국인 김서련의 업적은 무엇인가요?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "김서련 노벨평화상 업적 | en: Kim Su-yeon Nobel Peace Prize",
+     "lang": "ko",
+     "sources": [
+      "Oh Dal-su",
+      "1988",
+      "South Korea"
+     ],
+     "answer": "제공된 자료에는 2019 년 노벨평화상을 받은 한국인 김서련의 업적에 대한 정보가 명시되어 있지 않습니다. [출처: 확인 불가]",
+     "en_fallback": true,
+     "entity": [
+      "김서련"
+     ],
+     "entity_blocked": false
+    },
+    {
+     "kind": "fiction",
+     "q": "How tall, in meters, is Mount Kerrovan in Nepal?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "Mount Kerrovan height meters",
+     "lang": "en",
+     "sources": [],
+     "en_fallback": false,
+     "entity": [
+      "Mount Kerrovan"
+     ],
+     "entity_blocked": true,
+     "answer": "확인 불가 (위키백과에 'Mount Kerrovan' 이(가) 없음)"
+    },
+    {
+     "kind": "near",
+     "q": "노르바니아의 수도는 어디인가요?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "노르바니아의 수도",
+     "lang": "ko",
+     "sources": [
+      "콩키스타도르"
+     ],
+     "en_fallback": false,
+     "entity": [
+      "노르바니아"
+     ],
+     "entity_blocked": true,
+     "answer": "확인 불가 (위키백과에 '노르바니아' 이(가) 없음)"
+    },
+    {
+     "kind": "near",
+     "q": "스웨도니아의 수도는 어디인가요?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "스웨덴의 수도는 어디",
+     "lang": "ko",
+     "sources": [
+      "조선민주주의인민공화국",
+      "체코",
+      "헝가리",
+      "루키우스 베루스",
+      "클레오파트라"
+     ],
+     "en_fallback": false,
+     "entity": [
+      "스웨도니아"
+     ],
+     "entity_blocked": true,
+     "answer": "확인 불가 (위키백과에 '스웨도니아' 이(가) 없음)"
+    },
+    {
+     "kind": "near",
+     "q": "포르투갈리아의 수도는 어디인가요?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "포르투갈 수도",
+     "lang": "ko",
+     "sources": [
+      "포르투갈",
+      "페르디난드 마젤란",
+      "소나무재선충"
+     ],
+     "en_fallback": false,
+     "entity": [
+      "포르투갈리아"
+     ],
+     "entity_blocked": true,
+     "answer": "확인 불가 (위키백과에 '포르투갈리아' 이(가) 없음)"
+    },
+    {
+     "kind": "near",
+     "q": "오렐리아의 수도는 어디인가요?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "오렐리아의 수도 | en: What is the capital of Orelia?",
+     "lang": "ko",
+     "sources": [
+      "City of Kwinana",
+      "2 On"
+     ],
+     "answer": "확인 불가",
+     "en_fallback": true,
+     "entity": [
+      "오렐리아"
+     ],
+     "entity_blocked": false
+    },
+    {
+     "kind": "near",
+     "q": "캐나디아의 수도는 어디인가요?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "캐나다의 수도는 어디인가",
+     "lang": "ko",
+     "sources": [
+      "캐나다",
+      "버뮤다",
+      "아이슬란드",
+      "O-트레인"
+     ],
+     "en_fallback": false,
+     "entity": [
+      "캐나디아"
+     ],
+     "entity_blocked": true,
+     "answer": "확인 불가 (위키백과에 '캐나디아' 이(가) 없음)"
+    },
+    {
+     "kind": "near",
+     "q": "이집티아의 수도는 어디인가요?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "이집트의 수도는 어디",
+     "lang": "ko",
+     "sources": [
+      "조선민주주의인민공화국",
+      "헝가리",
+      "서울특별시",
+      "캐나다",
+      "동로마 제국"
+     ],
+     "en_fallback": false,
+     "entity": [
+      "이집티아"
+     ],
+     "entity_blocked": true,
+     "answer": "확인 불가 (위키백과에 '이집티아' 이(가) 없음)"
+    },
+    {
+     "kind": "near",
+     "q": "케냐니아의 수도는 어디인가요?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "케냐니아의 수도",
+     "lang": "ko",
+     "sources": [
+      "깃발 목록",
+      "탄자니아",
+      "주바랜드",
+      "대한민국의 대외 관계",
+      "우간다 보호령"
+     ],
+     "en_fallback": false,
+     "entity": [
+      "케냐니아"
+     ],
+     "entity_blocked": true,
+     "answer": "확인 불가 (위키백과에 '케냐니아' 이(가) 없음)"
+    },
+    {
+     "kind": "near",
+     "q": "칠리아나의 수도는 어디인가요?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "Chilianna capital city",
+     "lang": "ko",
+     "sources": [],
+     "en_fallback": false,
+     "entity": [
+      "칠리아나"
+     ],
+     "entity_blocked": true,
+     "answer": "확인 불가 (위키백과에 '칠리아나' 이(가) 없음)"
+    },
+    {
+     "kind": "near",
+     "q": "벨기아의 수도는 어디인가요?",
+     "ok": false,
+     "abstain": false,
+     "halluc": true,
+     "query": "벨기아 수도 | en: What is the capital of Belgium?",
+     "lang": "ko",
+     "sources": [
+      "Belgium",
+      "Brussels",
+      "Belgian nationalism"
+     ],
+     "answer": "벨기아의 수도는 브뤼셀입니다. [출처: Belgium]",
+     "en_fallback": true,
+     "entity": [
+      "벨기아"
+     ],
+     "entity_blocked": false
+    },
+    {
+     "kind": "near",
+     "q": "폴로니아 공화국의 수도는 어디인가요?",
+     "ok": true,
+     "abstain": true,
+     "halluc": false,
+     "query": "폴로니아 수도",
+     "lang": "ko",
+     "sources": [
+      "일루미나티",
+      "댜틀로프 고개 사건",
+      "유대폴로니아",
+      "미확인비행체",
+      "홀로코스트 부정"
+     ],
+     "en_fallback": false,
+     "entity": [
+      "폴로니아 공화국"
+     ],
+     "entity_blocked": true,
+     "answer": "확인 불가 (위키백과에 '폴로니아 공화국' 이(가) 없음)"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,143 @@
+{
+ "protocol": "life-v1",
+ "agent": "agent-v4",
+ "cond": "FRESH",
+ "sampling": {
+  "temperature": 0.6,
+  "seed": 10
+ },
+ "days": {
+  "1": {
+   "judge": {
+    "note": null,
+    "capitals": {
+     "캐나다": "abstain",
+     "호주": "ok",
+     "튀르키예": "abstain"
+    },
+    "receipts": {
+     "ok": false
+    },
+    "report": {
+     "ok": false,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 1,
+    "total": 5,
+    "halluc": 0,
+    "abstain": 2,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 0,
+    "repeats": 9,
+    "denied": 0,
+    "lookups": 5,
+    "remembers": 0,
+    "done": [],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 1426,
+    "sec_llm": 31.95640754699707,
+    "end_refused": 2,
+    "memory_lines": 5,
+    "write_corrections": 1
+   },
+   "wall_sec": 52.1
+  },
+  "2": {
+   "judge": {
+    "cat": "abstain",
+    "receipts": {
+     "ok": false
+    },
+    "capitals": {
+     "뉴질랜드": "ok"
+    },
+    "report": {
+     "ok": false,
+     "other_reports": [
+      "report.md"
+     ]
+    }
+   },
+   "score": {
+    "ok": 1,
+    "total": 4,
+    "halluc": 0,
+    "abstain": 1,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 0,
+    "repeats": 6,
+    "denied": 0,
+    "lookups": 3,
+    "remembers": 0,
+    "done": [
+     "capitals"
+    ],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 1558,
+    "sec_llm": 31.736449718475342,
+    "end_refused": 2,
+    "memory_lines": 2,
+    "write_corrections": 1
+   },
+   "wall_sec": 36.4
+  },
+  "3": {
+   "judge": {
+    "fiction": "ok",
+    "gift": {
+     "exists": true,
+     "name": false,
+     "invented_name": []
+    },
+    "preserved": {
+     "캐나다": false,
+     "호주": false,
+     "튀르키예": false,
+     "뉴질랜드": false
+    },
+    "report": {
+     "ok": false,
+     "other_reports": [
+      "report.md"
+     ]
+    }
+   },
+   "score": {
+    "ok": 1,
+    "total": 3,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 0,
+    "repeats": 4,
+    "denied": 0,
+    "lookups": 3,
+    "remembers": 1,
+    "done": [
+     "pets/gift.md 작성"
+    ],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 2537,
+    "sec_llm": 49.88253426551819,
+    "end_refused": 2,
+    "memory_lines": 1,
+    "write_corrections": 10
+   },
+   "wall_sec": 55.9
+  }
+ }
+}

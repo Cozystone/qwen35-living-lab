@@ -1,0 +1,69 @@
+diff --git a/atanor_os/world/raw_obs.py b/atanor_os/world/raw_obs.py
+index 8277e14a..7c40c255 100644
+--- a/atanor_os/world/raw_obs.py
++++ b/atanor_os/world/raw_obs.py
+@@ -12,13 +12,15 @@ clime:      a0..a4 = the object's five observed tokens (kind, heat, air, wing, v
+             no relations.
+ desk:       a0..a4 = the object's five observed tokens (kind, place, status, tag, value), names removed;
+             no relations.
++home:       the filesystem's a0..a3, plus a4 = head (first token of the first line), a5 = loc (last segment of the
++            parent id; computed from the id alone); relation r0 as the filesystem (Track A, world/home_world.py).
+ `to_human` is the deterministic inverse used only to hand predicted states to the planner and judge
+ (goals are written in the human attributes); it is an action interface, not concept learning.
+ """
+ from .fs_world import parent_of
+ 
+-IDENTITY = {'fs': ('a3',), 'view': (), 'board': (), 'desk': (), 'clime': ()}
+-KIND_ATTRS = {'fs': ('a0', 'a1'), 'view': ('a0',), 'board': ('a0',), 'desk': ('a0',), 'clime': ('a0',)}       # provided: which raw attributes make up an argument's kind
++IDENTITY = {'fs': ('a3',), 'home': ('a3',), 'view': (), 'board': (), 'desk': (), 'clime': ()}
++KIND_ATTRS = {'fs': ('a0', 'a1'), 'home': ('a0', 'a1'), 'view': ('a0',), 'board': ('a0',), 'desk': ('a0',), 'clime': ('a0',)}       # provided: which raw attributes make up an argument's kind
+ 
+ 
+ def names_of(body, obj):
+@@ -32,6 +34,10 @@ def raw_attrs(body, obj):
+     if body == 'fs':
+         k = obj.get('kind')
+         return {'a0': 0 if k == 'absent' else 1, 'a1': 1 if k == 'dir' else 0, 'a2': obj.get('ext'), 'a3': obj.get('hash')}
++    if body == 'home':
++        k = obj.get('kind')
++        return {'a0': 0 if k == 'absent' else 1, 'a1': 1 if k == 'dir' else 0, 'a2': obj.get('ext'), 'a3': obj.get('hash'),
++                'a4': obj.get('head'), 'a5': obj.get('loc')}
+     if body == 'board':
+         return {'a0': obj.get('kind'), 'a1': obj.get('mark'), 'a2': obj.get('tray'), 'a3': obj.get('level'), 'a4': obj.get('value')}
+     if body == 'desk':
+@@ -43,12 +49,12 @@ def raw_attrs(body, obj):
+ 
+ def related(body, o_id, p_id):
+     """r0(o, p) for the filesystem body; the view body has no relations."""
+-    return body == 'fs' and parent_of(p_id) == o_id and o_id != ''
++    return body in ('fs', 'home') and parent_of(p_id) == o_id and o_id != ''
+ 
+ 
+ def neighbours(body, state, p_id):
+     """Observed objects o with r0(o, p)."""
+-    if body != 'fs':
++    if body not in ('fs', 'home'):
+         return []
+     par = parent_of(p_id)
+     return [par] if par and par in state else []
+@@ -60,6 +66,11 @@ def to_human(body, raw, old):
+         kind = 'absent' if raw['a0'] == 0 else ('dir' if raw['a1'] == 1 else 'file')
+         h = raw['a3'] if kind == 'file' else '-'
+         return {**old, 'kind': kind, 'hash': h if h not in (None, 'unknown') or kind != 'file' else 'unknown', 'ext': raw['a2']}
++    if body == 'home':
++        kind = 'absent' if raw['a0'] == 0 else ('dir' if raw['a1'] == 1 else 'file')
++        h = raw['a3'] if kind == 'file' else '-'
++        return {**old, 'kind': kind, 'hash': h if h not in (None, 'unknown') or kind != 'file' else 'unknown', 'ext': raw['a2'],
++                'head': raw['a4'] if kind == 'file' else '-'}
+     if body == 'board':
+         return {**old, 'kind': raw['a0'], 'mark': raw['a1'], 'tray': raw['a2'], 'level': raw['a3'], 'value': raw['a4']}
+     if body == 'desk':
+@@ -71,7 +82,7 @@ def to_human(body, raw, old):
+ 
+ def recompute_derived(body, state):
+     """The filesystem's derived parent_kind (human interface only; never shown to the concept learner)."""
+-    if body == 'fs':
++    if body in ('fs', 'home'):
+         for p, o in state.items():
+             if 'parent_kind' in o:
+                 par = parent_of(p)

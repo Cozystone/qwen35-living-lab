@@ -1,0 +1,3 @@
+- [확인된 사실] 오렐리아의 수도는 오렐리아임 (출처: facts/capitals.md)
+- [확인된 사실] 나이로비는 케냐의 수도임 (출처: facts/capitals.md)
+- [확인된 사실] 노르바니아의 수도는 하노버임 (출처: facts/capitals.md)

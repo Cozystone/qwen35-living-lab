@@ -1,0 +1,160 @@
+{
+ "protocol": "life-v1",
+ "agent": "agent-v4a",
+ "cond": "LIFE",
+ "sampling": {
+  "temperature": 0.6,
+  "seed": 8
+ },
+ "days": {
+  "1": {
+   "judge": {
+    "note": null,
+    "capitals": {
+     "캐나다": "ok",
+     "호주": "ok",
+     "튀르키예": "ok"
+    },
+    "receipts": {
+     "ok": false
+    },
+    "report": {
+     "ok": false,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 3,
+    "total": 5,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 22,
+    "errors": 0,
+    "repeats": 3,
+    "denied": 0,
+    "lookups": 7,
+    "remembers": 1,
+    "done": [
+     "note"
+    ],
+    "ended": true,
+    "stopped": false,
+    "tok_gen": 1217,
+    "sec_llm": 8.453836917877197,
+    "end_refused": 2,
+    "memory_lines": 5,
+    "write_corrections": 1,
+    "checks": 0,
+    "rejected": 0,
+    "blocked": 0,
+    "skipped": [],
+    "hand_calls": 2,
+    "hand_moved": 3
+   },
+   "wall_sec": 18.8
+  },
+  "2": {
+   "judge": {
+    "cat": "ok",
+    "receipts": {
+     "ok": false
+    },
+    "capitals": {
+     "뉴질랜드": "ok"
+    },
+    "report": {
+     "ok": true,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 3,
+    "total": 4,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 0,
+    "repeats": 6,
+    "denied": 0,
+    "lookups": 3,
+    "remembers": 0,
+    "done": [],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 1760,
+    "sec_llm": 11.298465013504028,
+    "end_refused": 2,
+    "memory_lines": 6,
+    "write_corrections": 1,
+    "checks": 0,
+    "rejected": 0,
+    "blocked": 0,
+    "skipped": [],
+    "hand_calls": 3,
+    "hand_moved": 9
+   },
+   "wall_sec": 20.3
+  },
+  "3": {
+   "judge": {
+    "fiction": "ok",
+    "gift": {
+     "exists": true,
+     "name": true,
+     "invented_name": []
+    },
+    "preserved": {
+     "캐나다": true,
+     "호주": true,
+     "튀르키예": true,
+     "뉴질랜드": true
+    },
+    "report": {
+     "ok": true,
+     "other_reports": [
+      "report-2026-10-28.md"
+     ]
+    }
+   },
+   "score": {
+    "ok": 3,
+    "total": 3,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 20,
+    "errors": 1,
+    "repeats": 1,
+    "denied": 0,
+    "lookups": 2,
+    "remembers": 0,
+    "done": [
+     "report",
+     "fiction"
+    ],
+    "ended": true,
+    "stopped": false,
+    "tok_gen": 2985,
+    "sec_llm": 13.635881185531616,
+    "end_refused": 2,
+    "memory_lines": 8,
+    "write_corrections": 3,
+    "checks": 0,
+    "rejected": 0,
+    "blocked": 0,
+    "skipped": [],
+    "hand_calls": 0,
+    "hand_moved": 0
+   },
+   "wall_sec": 16.9
+  }
+ }
+}

@@ -1,0 +1,177 @@
+{
+ "protocol": "life-v1",
+ "agent": "agent-v4a",
+ "cond": "FRESH",
+ "sampling": {
+  "temperature": 0.6,
+  "seed": 8
+ },
+ "days": {
+  "1": {
+   "judge": {
+    "note": null,
+    "capitals": {
+     "캐나다": "ok",
+     "호주": "ok",
+     "튀르키예": "ok"
+    },
+    "receipts": {
+     "ok": false
+    },
+    "report": {
+     "ok": false,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 3,
+    "total": 5,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 22,
+    "errors": 0,
+    "repeats": 3,
+    "denied": 0,
+    "lookups": 7,
+    "remembers": 1,
+    "done": [
+     "note"
+    ],
+    "ended": true,
+    "stopped": false,
+    "tok_gen": 1217,
+    "sec_llm": 8.341159582138062,
+    "end_refused": 2,
+    "memory_lines": 5,
+    "write_corrections": 1,
+    "checks": 0,
+    "rejected": 0,
+    "blocked": 0,
+    "skipped": [],
+    "hand_calls": 2,
+    "hand_moved": 3
+   },
+   "wall_sec": 13.9
+  },
+  "2": {
+   "judge": {
+    "cat": "abstain",
+    "receipts": {
+     "ok": false
+    },
+    "capitals": {
+     "뉴질랜드": "ok"
+    },
+    "report": {
+     "ok": false,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 1,
+    "total": 4,
+    "halluc": 0,
+    "abstain": 1,
+    "false_done": [
+     "cat",
+     "receipts",
+     "receipts",
+     "report",
+     "receipts",
+     "receipts"
+    ]
+   },
+   "stats": {
+    "steps": 20,
+    "errors": 0,
+    "repeats": 1,
+    "denied": 1,
+    "lookups": 2,
+    "remembers": 0,
+    "done": [
+     "cat",
+     "receipts",
+     "capitals",
+     "receipts",
+     "report",
+     "receipts",
+     "receipts"
+    ],
+    "ended": true,
+    "stopped": false,
+    "tok_gen": 1447,
+    "sec_llm": 8.90190052986145,
+    "end_refused": 1,
+    "memory_lines": 3,
+    "write_corrections": 1,
+    "checks": 0,
+    "rejected": 0,
+    "blocked": 0,
+    "skipped": [],
+    "hand_calls": 0,
+    "hand_moved": 0
+   },
+   "wall_sec": 14.3
+  },
+  "3": {
+   "judge": {
+    "fiction": "ok",
+    "gift": {
+     "exists": true,
+     "name": false,
+     "invented_name": [
+      "뱀파이어"
+     ]
+    },
+    "preserved": {
+     "캐나다": false,
+     "호주": false,
+     "튀르키예": false,
+     "뉴질랜드": false
+    },
+    "report": {
+     "ok": false,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 1,
+    "total": 3,
+    "halluc": 1,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 15,
+    "errors": 0,
+    "repeats": 1,
+    "denied": 0,
+    "lookups": 2,
+    "remembers": 0,
+    "done": [
+     "inbox/report.md",
+     "pets/gift.md",
+     "facts/capitals.md",
+     "facts/capitals.md"
+    ],
+    "ended": true,
+    "stopped": false,
+    "tok_gen": 1166,
+    "sec_llm": 6.844883918762207,
+    "end_refused": 2,
+    "memory_lines": 1,
+    "write_corrections": 2,
+    "checks": 0,
+    "rejected": 0,
+    "blocked": 0,
+    "skipped": [],
+    "hand_calls": 0,
+    "hand_moved": 0
+   },
+   "wall_sec": 8.4
+  }
+ }
+}

@@ -1,0 +1,7 @@
+- [규칙] 보고서는 reports/ 폴더에 report-<날짜>.md 이름으로 작성한다.
+- [주인 사실] 안녕, 나는 이 집 주인이야.
+- [확인된 사실] 캐나다: 오타와 (출처: facts/capitals.md)
+- [확인된 사실] 호주: 캔버라 (출처: facts/capitals.md)
+- [확인된 사실] 튀르키예: 앙카라 (출처: facts/capitals.md)
+- [확인된 사실] 뉴질랜드: 웰링턴 (출처: facts/capitals.md)
+- [확인된 사실] 고양이 이름: 모카

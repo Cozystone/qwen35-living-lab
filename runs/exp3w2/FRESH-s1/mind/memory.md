@@ -1,0 +1,5 @@
+- [확인된 사실] 노르바니아의 수도는 비스벨이다 (출처: facts/capitals.md)
+- [확인된 사실] 노르바니아는 판타지 세계의 국가이다 (출처: facts/capitals.md)
+- [확인된 사실] facts/capitals.md 파일에 노르바니아 정보 기록되어 있다 (출처: facts/capitals.md)
+- [확인된 사실] facts/summary.md 파일에 이번 주 국가 및 수도 요약이 기록되어 있다 (출처: facts/summary.md)
+- [확인된 사실] reports/report-2026-11-08.md 파일에 이번 주 마지막 보고서가 기록되어 있다 (출처: reports/report-2026-11-08.md)

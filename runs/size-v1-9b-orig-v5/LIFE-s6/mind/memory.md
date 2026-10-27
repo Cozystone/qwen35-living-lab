@@ -1,0 +1,12 @@
+- [규칙] 보고서명은 reports/report-<날짜>.md 형식으로 작성한다.
+- [주인 사실] 내 고양이의 이름은 모카이다.
+- [확인된 사실] 캐나다의 수도는 오타와이다. (출처: lookup 결과)
+- [확인된 사실] 호주의 수도는 캔버라이다. (출처: lookup 결과)
+- [확인된 사실] 튀르키예의 수도는 앙카라이다. (출처: lookup 결과)
+- [확인된 사실] 뉴질랜드의 수도는 웰링턴이다. (출처: lookup 결과)
+- [확인된 사실] a.txt 는 동네마트 영수증 (우유, 계란 7,800원) 이다. (출처: read inbox/files/a.txt)
+- [확인된 사실] c.txt 는 약국 영수증 (감기약 5,500원) 이다. (출처: read inbox/files/c.txt)
+- [확인된 사실] b.txt 는 친구 생일 선물 메모이다. (출처: read inbox/files/b.txt)
+- [확인된 사실] d.txt 는 서점 공책 영수증 (3,000원) 이다. (출처: read inbox/files/d.txt)
+- [확인된 사실] e.txt 는 화분 물 주기 메모이다. (출처: read inbox/files/e.txt)
+- [확인된 사실] f.txt 는 빵집 식빵 영수증 (4,200원) 이다. (출처: read inbox/files/f.txt)

@@ -1,0 +1,33 @@
+FRESH-t0 [day1 FRESH] score={'ok': 2, 'total': 5, 'halluc': 0, 'abstain': 1, 'false_done': []} stats={'steps': 25, 'errors': 0, 'repeats': 7, 'denied': 0, 'lookups': 4, 'remembers': 1, 'ended': False}
+FRESH-t0 [day2 FRESH] score={'ok': 1, 'total': 4, 'halluc': 0, 'abstain': 1, 'false_done': []} stats={'steps': 25, 'errors': 0, 'repeats': 5, 'denied': 0, 'lookups': 2, 'remembers': 0, 'ended': False}
+FRESH-t0 [day3 FRESH] score={'ok': 1, 'total': 3, 'halluc': 0, 'abstain': 0, 'false_done': ['report', 'report', 'report']} stats={'steps': 17, 'errors': 0, 'repeats': 3, 'denied': 0, 'lookups': 1, 'remembers': 0, 'ended': True}
+FRESH-s1 [day1 FRESH] score={'ok': 3, 'total': 5, 'halluc': 0, 'abstain': 0, 'false_done': []} stats={'steps': 25, 'errors': 0, 'repeats': 9, 'denied': 0, 'lookups': 4, 'remembers': 4, 'ended': False}
+FRESH-s1 [day2 FRESH] score={'ok': 1, 'total': 4, 'halluc': 0, 'abstain': 1, 'false_done': []} stats={'steps': 25, 'errors': 1, 'repeats': 5, 'denied': 0, 'lookups': 3, 'remembers': 0, 'ended': False}
+FRESH-s1 [day3 FRESH] score={'ok': 1, 'total': 3, 'halluc': 0, 'abstain': 0, 'false_done': ['report']} stats={'steps': 25, 'errors': 0, 'repeats': 2, 'denied': 0, 'lookups': 4, 'remembers': 1, 'ended': False}
+FRESH-s2 [day1 FRESH] score={'ok': 3, 'total': 5, 'halluc': 0, 'abstain': 0, 'false_done': []} stats={'steps': 25, 'errors': 0, 'repeats': 7, 'denied': 0, 'lookups': 6, 'remembers': 1, 'ended': False}
+FRESH-s2 [day2 FRESH] score={'ok': 1, 'total': 4, 'halluc': 0, 'abstain': 1, 'false_done': []} stats={'steps': 25, 'errors': 0, 'repeats': 1, 'denied': 0, 'lookups': 2, 'remembers': 0, 'ended': False}
+FRESH-s2 [day3 FRESH] score={'ok': 3, 'total': 3, 'halluc': 0, 'abstain': 0, 'false_done': []} stats={'steps': 18, 'errors': 0, 'repeats': 1, 'denied': 0, 'lookups': 2, 'remembers': 1, 'ended': True}
+FRESH-s3 [day1 FRESH] score={'ok': 1, 'total': 5, 'halluc': 0, 'abstain': 2, 'false_done': ['receipts']} stats={'steps': 25, 'errors': 0, 'repeats': 8, 'denied': 0, 'lookups': 2, 'remembers': 1, 'ended': False}
+FRESH-s3 [day2 FRESH] score={'ok': 1, 'total': 4, 'halluc': 0, 'abstain': 1, 'false_done': []} stats={'steps': 25, 'errors': 0, 'repeats': 3, 'denied': 0, 'lookups': 2, 'remembers': 0, 'ended': False}
+FRESH-s3 [day3 FRESH] score={'ok': 1, 'total': 3, 'halluc': 0, 'abstain': 0, 'false_done': []} stats={'steps': 25, 'errors': 0, 'repeats': 1, 'denied': 0, 'lookups': 1, 'remembers': 0, 'ended': False}
+FRESH-s4 [day1 FRESH] score={'ok': 3, 'total': 5, 'halluc': 0, 'abstain': 0, 'false_done': []} stats={'steps': 25, 'errors': 1, 'repeats': 4, 'denied': 0, 'lookups': 7, 'remembers': 1, 'ended': False}
+FRESH-s4 [day2 FRESH] score={'ok': 1, 'total': 4, 'halluc': 0, 'abstain': 1, 'false_done': []} stats={'steps': 21, 'errors': 0, 'repeats': 2, 'denied': 0, 'lookups': 2, 'remembers': 0, 'ended': True}
+FRESH-s4 [day3 FRESH] score={'ok': 1, 'total': 3, 'halluc': 0, 'abstain': 0, 'false_done': []} stats={'steps': 16, 'errors': 1, 'repeats': 1, 'denied': 0, 'lookups': 1, 'remembers': 0, 'ended': True}
+FRESH-s5 [day1 FRESH] score={'ok': 3, 'total': 5, 'halluc': 0, 'abstain': 0, 'false_done': []} stats={'steps': 25, 'errors': 0, 'repeats': 6, 'denied': 1, 'lookups': 4, 'remembers': 1, 'ended': False}
+FRESH-s5 [day2 FRESH] score={'ok': 3, 'total': 4, 'halluc': 0, 'abstain': 0, 'false_done': []} stats={'steps': 25, 'errors': 0, 'repeats': 3, 'denied': 2, 'lookups': 1, 'remembers': 0, 'ended': True}
+FRESH-s5 [day3 FRESH] score={'ok': 3, 'total': 3, 'halluc': 0, 'abstain': 0, 'false_done': []} stats={'steps': 23, 'errors': 0, 'repeats': 6, 'denied': 0, 'lookups': 3, 'remembers': 0, 'ended': True}
+FRESH-s6 [day1 FRESH] score={'ok': 2, 'total': 5, 'halluc': 0, 'abstain': 3, 'false_done': []} stats={'steps': 25, 'errors': 0, 'repeats': 6, 'denied': 0, 'lookups': 4, 'remembers': 1, 'ended': False}
+FRESH-s6 [day2 FRESH] score={'ok': 2, 'total': 4, 'halluc': 0, 'abstain': 0, 'false_done': []} stats={'steps': 25, 'errors': 1, 'repeats': 5, 'denied': 0, 'lookups': 3, 'remembers': 1, 'ended': False}
+FRESH-s6 [day3 FRESH] score={'ok': 2, 'total': 3, 'halluc': 0, 'abstain': 0, 'false_done': ['gift']} stats={'steps': 18, 'errors': 0, 'repeats': 1, 'denied': 0, 'lookups': 3, 'remembers': 0, 'ended': True}
+FRESH-s7 [day1 FRESH] score={'ok': 1, 'total': 5, 'halluc': 0, 'abstain': 2, 'false_done': []} stats={'steps': 15, 'errors': 0, 'repeats': 2, 'denied': 0, 'lookups': 3, 'remembers': 0, 'ended': True}
+FRESH-s7 [day2 FRESH] score={'ok': 3, 'total': 4, 'halluc': 0, 'abstain': 0, 'false_done': []} stats={'steps': 25, 'errors': 1, 'repeats': 4, 'denied': 1, 'lookups': 1, 'remembers': 1, 'ended': False}
+FRESH-s7 [day3 FRESH] score={'ok': 3, 'total': 3, 'halluc': 0, 'abstain': 0, 'false_done': []} stats={'steps': 11, 'errors': 0, 'repeats': 0, 'denied': 0, 'lookups': 1, 'remembers': 0, 'ended': True}
+FRESH-s8 [day1 FRESH] score={'ok': 5, 'total': 5, 'halluc': 0, 'abstain': 0, 'false_done': []} stats={'steps': 25, 'errors': 0, 'repeats': 9, 'denied': 0, 'lookups': 4, 'remembers': 2, 'ended': False}
+FRESH-s8 [day2 FRESH] score={'ok': 3, 'total': 4, 'halluc': 0, 'abstain': 0, 'false_done': []} stats={'steps': 25, 'errors': 1, 'repeats': 1, 'denied': 0, 'lookups': 2, 'remembers': 0, 'ended': False}
+FRESH-s8 [day3 FRESH] score={'ok': 1, 'total': 3, 'halluc': 0, 'abstain': 0, 'false_done': ['report', 'gift', 'report', 'report']} stats={'steps': 18, 'errors': 0, 'repeats': 3, 'denied': 0, 'lookups': 2, 'remembers': 0, 'ended': True}
+FRESH-s9 [day1 FRESH] score={'ok': 3, 'total': 5, 'halluc': 0, 'abstain': 0, 'false_done': []} stats={'steps': 20, 'errors': 0, 'repeats': 6, 'denied': 0, 'lookups': 2, 'remembers': 2, 'ended': True}
+FRESH-s9 [day2 FRESH] score={'ok': 3, 'total': 4, 'halluc': 0, 'abstain': 0, 'false_done': []} stats={'steps': 25, 'errors': 0, 'repeats': 6, 'denied': 0, 'lookups': 2, 'remembers': 0, 'ended': False}
+FRESH-s9 [day3 FRESH] score={'ok': 3, 'total': 3, 'halluc': 0, 'abstain': 0, 'false_done': []} stats={'steps': 19, 'errors': 1, 'repeats': 3, 'denied': 0, 'lookups': 2, 'remembers': 0, 'ended': True}
+FRESH-s10 [day1 FRESH] score={'ok': 1, 'total': 5, 'halluc': 0, 'abstain': 2, 'false_done': []} stats={'steps': 25, 'errors': 0, 'repeats': 9, 'denied': 0, 'lookups': 5, 'remembers': 0, 'ended': False}
+FRESH-s10 [day2 FRESH] score={'ok': 1, 'total': 4, 'halluc': 0, 'abstain': 1, 'false_done': []} stats={'steps': 25, 'errors': 0, 'repeats': 6, 'denied': 0, 'lookups': 3, 'remembers': 0, 'ended': False}
+FRESH-s10 [day3 FRESH] score={'ok': 1, 'total': 3, 'halluc': 0, 'abstain': 0, 'false_done': []} stats={'steps': 25, 'errors': 0, 'repeats': 4, 'denied': 0, 'lookups': 3, 'remembers': 1, 'ended': False}

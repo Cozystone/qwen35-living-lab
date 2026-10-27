@@ -1,0 +1,6 @@
+- [확인된 사실] 캐나다의 수도는 오타와이다 (출처: facts/capitals.md)
+- [확인된 사실] 호주의 수도는 캔버라이다 (출처: facts/capitals.md)
+- [확인된 사실] 튀르키예의 수도는 앙카라이다 (출처: facts/capitals.md)
+- [확인된 사실] 뉴질랜드의 수도는 웰링턴이다 (출처: facts/capitals.md)
+- [확인된 사실] 벨트라니아의 수도는 확인 불가이다 (출처: facts/capitals.md)
+- [확인된 사실] 고양이 이름은 모카이다 (출처: pets/cat.txt)

@@ -1,0 +1,5 @@
+- [확인된 사실] 나로비 (Nairobi) 는 케냐의 수도임 (출처: facts/capitals.md)
+- [확인된 사실] pets/cat.txt 파일에 고양이 이름이 등록되어 있음 (출처: 오늘의 행동 기록)
+- [확인된 사실] facts/capitals.md 파일에 케냐 수도가 추가되어 있음 (출처: 오늘의 행동 기록)
+- [확인된 사실] facts/summary.md 파일은 현재 'Permission denied' 오류로 접근 불가 (출처: 오늘의 행동 기록)
+- [확인된 사실] facts/summary.md 파일은 현재 'FileNotFoundError' 오류로 접근 불가 (출처: 오늘의 행동 기록)

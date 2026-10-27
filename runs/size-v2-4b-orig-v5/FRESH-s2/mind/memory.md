@@ -1,0 +1,7 @@
+- [확인된 사실] ... (출처: facts/capitals.md) 일본: 도쿄
+- [확인된 사실] ... (출처: facts/capitals.md) 이집트: 카이로
+- [확인된 사실] ... (출처: facts/capitals.md) 케냐: 나이로비
+- [확인된 사실] ... (출처: facts/capitals.md) 노르바니아: 레이크타운
+- [주인 사실] ... (출처: end_day diary) 오늘 노르바니아 수도 정보를 확인하지 못해 표 작성과 보고서 작성을 포기했습니다.
+- [주인 사실] ... (출처: end_day diary) facts/capitals.md 에는 노르바니아 수도 '레이크타운'을 추가하고 fiction 과 fiction 의 완료는 확인했으나, summary 와 report 는 증거가 없기 때문에 작업이 중단되었습니다.
+- [주인 사실] ... (출처: end_day diary) 다음 주에 정보가 명확해지면 다시 시도할 예정입니다.

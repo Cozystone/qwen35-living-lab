@@ -1,0 +1,153 @@
+{
+ "protocol": "life-v1",
+ "agent": "agent-v5",
+ "cond": "FRESH",
+ "sampling": {
+  "temperature": 0.6,
+  "seed": 13
+ },
+ "days": {
+  "1": {
+   "judge": {
+    "note": null,
+    "capitals": {
+     "캐나다": "ok",
+     "호주": "ok",
+     "튀르키예": "ok"
+    },
+    "receipts": {
+     "ok": true
+    },
+    "report": {
+     "ok": true,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 5,
+    "total": 5,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 1,
+    "repeats": 4,
+    "denied": 0,
+    "lookups": 3,
+    "remembers": 1,
+    "done": [],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 3131,
+    "sec_llm": 18.154221534729004,
+    "end_refused": 1,
+    "memory_lines": 6,
+    "write_corrections": 4,
+    "checks": 3,
+    "rejected": 1,
+    "blocked": 4,
+    "skipped": []
+   },
+   "wall_sec": 26.8
+  },
+  "2": {
+   "judge": {
+    "cat": "ok",
+    "receipts": {
+     "ok": false
+    },
+    "capitals": {
+     "뉴질랜드": "missing"
+    },
+    "report": {
+     "ok": false,
+     "other_reports": [
+      "report-2026-10-27.md"
+     ]
+    }
+   },
+   "score": {
+    "ok": 1,
+    "total": 4,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 0,
+    "repeats": 9,
+    "denied": 0,
+    "lookups": 0,
+    "remembers": 1,
+    "done": [],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 1254,
+    "sec_llm": 12.016509771347046,
+    "end_refused": 0,
+    "memory_lines": 6,
+    "write_corrections": 0,
+    "checks": 4,
+    "rejected": 3,
+    "blocked": 8,
+    "skipped": []
+   },
+   "wall_sec": 16.6
+  },
+  "3": {
+   "judge": {
+    "fiction": "ok",
+    "gift": {
+     "exists": true,
+     "name": true,
+     "invented_name": []
+    },
+    "preserved": {
+     "캐나다": true,
+     "호주": true,
+     "튀르키예": true,
+     "뉴질랜드": false
+    },
+    "report": {
+     "ok": true,
+     "other_reports": [
+      "report-2026-10-27.md"
+     ]
+    }
+   },
+   "score": {
+    "ok": 3,
+    "total": 3,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 0,
+    "repeats": 3,
+    "denied": 0,
+    "lookups": 3,
+    "remembers": 0,
+    "done": [
+     "fiction"
+    ],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 2595,
+    "sec_llm": 16.44593071937561,
+    "end_refused": 2,
+    "memory_lines": 10,
+    "write_corrections": 1,
+    "checks": 4,
+    "rejected": 3,
+    "blocked": 4,
+    "skipped": []
+   },
+   "wall_sec": 28.4
+  }
+ }
+}

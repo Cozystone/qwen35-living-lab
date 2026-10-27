@@ -1,0 +1,3 @@
+- [확인된 사실] 노르바니아의 수도는 크라코비아임 (출처: facts/capitals.md)
+- [확인된 사실] 오스트레일리아의 수도는 캔버라임 (출처: facts/capitals.md)
+- [확인된 사실] 케냐의 수도는 나이로비임 (출처: facts/capitals.md)

@@ -1,0 +1,337 @@
+{
+ "protocol": "life-v2",
+ "agent": "agent-v5",
+ "cond": "LIFE",
+ "sampling": {
+  "temperature": 0.6,
+  "seed": 3
+ },
+ "days": {
+  "1": {
+   "judge": {
+    "capitals": {
+     "일본": "ok",
+     "이집트": "ok"
+    },
+    "receipts": {
+     "ok": true
+    },
+    "report": {
+     "ok": true
+    }
+   },
+   "score": {
+    "ok": 3,
+    "total": 3,
+    "halluc": 0,
+    "abstain": 0,
+    "stale": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 0,
+    "repeats": 6,
+    "denied": 0,
+    "lookups": 2,
+    "remembers": 3,
+    "done": [
+     "receipts",
+     "capitals",
+     "note"
+    ],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 1693,
+    "sec_llm": 16.953086614608765,
+    "end_refused": 0,
+    "memory_lines": 7,
+    "write_corrections": 0,
+    "checks": 6,
+    "rejected": 1,
+    "blocked": 7,
+    "skipped": [],
+    "hand_calls": 0,
+    "hand_moved": 0
+   },
+   "wall_sec": 27.1
+  },
+  "2": {
+   "judge": {
+    "invite": "ok",
+    "receipts": {
+     "ok": false
+    },
+    "report": {
+     "ok": true
+    }
+   },
+   "score": {
+    "ok": 2,
+    "total": 3,
+    "halluc": 0,
+    "abstain": 0,
+    "stale": 0,
+    "false_done": [
+     "receipts"
+    ]
+   },
+   "stats": {
+    "steps": 20,
+    "errors": 0,
+    "repeats": 3,
+    "denied": 0,
+    "lookups": 0,
+    "remembers": 0,
+    "done": [
+     "invite",
+     "receipts",
+     "report"
+    ],
+    "ended": true,
+    "stopped": false,
+    "tok_gen": 1266,
+    "sec_llm": 13.191050052642822,
+    "end_refused": 0,
+    "memory_lines": 10,
+    "write_corrections": 0,
+    "checks": 3,
+    "rejected": 0,
+    "blocked": 3,
+    "skipped": [],
+    "hand_calls": 0,
+    "hand_moved": 0
+   },
+   "wall_sec": 18.6
+  },
+  "3": {
+   "judge": {
+    "fiction": "ok",
+    "report": {
+     "ok": true,
+     "stale": false
+    }
+   },
+   "score": {
+    "ok": 2,
+    "total": 2,
+    "halluc": 0,
+    "abstain": 0,
+    "stale": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 0,
+    "repeats": 5,
+    "denied": 0,
+    "lookups": 2,
+    "remembers": 2,
+    "done": [
+     "note"
+    ],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 1846,
+    "sec_llm": 19.506099462509155,
+    "end_refused": 0,
+    "memory_lines": 7,
+    "write_corrections": 2,
+    "checks": 5,
+    "rejected": 0,
+    "blocked": 6,
+    "skipped": [
+     "fiction"
+    ],
+    "hand_calls": 0,
+    "hand_moved": 0
+   },
+   "wall_sec": 28.6
+  },
+  "4": {
+   "judge": {
+    "cat": "ok",
+    "capitals": {
+     "케냐": "ok"
+    },
+    "report": {
+     "ok": true,
+     "stale": false
+    }
+   },
+   "score": {
+    "ok": 3,
+    "total": 3,
+    "halluc": 0,
+    "abstain": 0,
+    "stale": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 11,
+    "errors": 0,
+    "repeats": 2,
+    "denied": 0,
+    "lookups": 0,
+    "remembers": 0,
+    "done": [
+     "cat",
+     "capitals",
+     "report"
+    ],
+    "ended": true,
+    "stopped": false,
+    "tok_gen": 724,
+    "sec_llm": 6.5068042278289795,
+    "end_refused": 0,
+    "memory_lines": 8,
+    "write_corrections": 2,
+    "checks": 3,
+    "rejected": 0,
+    "blocked": 2,
+    "skipped": [],
+    "hand_calls": 0,
+    "hand_moved": 0
+   },
+   "wall_sec": 11.4
+  },
+  "5": {
+   "judge": {
+    "catfix": "ok",
+    "report": {
+     "ok": false,
+     "stale": true
+    }
+   },
+   "score": {
+    "ok": 1,
+    "total": 2,
+    "halluc": 0,
+    "abstain": 0,
+    "stale": 1,
+    "false_done": [
+     "report"
+    ]
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 0,
+    "repeats": 8,
+    "denied": 0,
+    "lookups": 0,
+    "remembers": 3,
+    "done": [
+     "catfix",
+     "report",
+     "note"
+    ],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 1705,
+    "sec_llm": 17.83212661743164,
+    "end_refused": 1,
+    "memory_lines": 12,
+    "write_corrections": 1,
+    "checks": 4,
+    "rejected": 0,
+    "blocked": 8,
+    "skipped": [],
+    "hand_calls": 0,
+    "hand_moved": 0
+   },
+   "wall_sec": 25.0
+  },
+  "6": {
+   "judge": {
+    "card": "missing",
+    "report": {
+     "ok": true,
+     "stale": false
+    }
+   },
+   "score": {
+    "ok": 1,
+    "total": 2,
+    "halluc": 0,
+    "abstain": 0,
+    "stale": 0,
+    "false_done": [
+     "card"
+    ]
+   },
+   "stats": {
+    "steps": 13,
+    "errors": 0,
+    "repeats": 2,
+    "denied": 0,
+    "lookups": 0,
+    "remembers": 0,
+    "done": [
+     "card",
+     "report"
+    ],
+    "ended": true,
+    "stopped": false,
+    "tok_gen": 1004,
+    "sec_llm": 10.053312063217163,
+    "end_refused": 0,
+    "memory_lines": 12,
+    "write_corrections": 2,
+    "checks": 2,
+    "rejected": 1,
+    "blocked": 2,
+    "skipped": [],
+    "hand_calls": 0,
+    "hand_moved": 0
+   },
+   "wall_sec": 15.7
+  },
+  "7": {
+   "judge": {
+    "fiction": "ok",
+    "summary": {
+     "ok": true
+    },
+    "report": {
+     "ok": true,
+     "stale": false
+    }
+   },
+   "score": {
+    "ok": 3,
+    "total": 3,
+    "halluc": 0,
+    "abstain": 0,
+    "stale": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 24,
+    "errors": 0,
+    "repeats": 11,
+    "denied": 0,
+    "lookups": 0,
+    "remembers": 0,
+    "done": [
+     "fiction",
+     "summary",
+     "report"
+    ],
+    "ended": true,
+    "stopped": false,
+    "tok_gen": 1802,
+    "sec_llm": 18.269930124282837,
+    "end_refused": 1,
+    "memory_lines": 16,
+    "write_corrections": 3,
+    "checks": 7,
+    "rejected": 0,
+    "blocked": 10,
+    "skipped": [],
+    "hand_calls": 0,
+    "hand_moved": 0
+   },
+   "wall_sec": 28.7
+  }
+ }
+}

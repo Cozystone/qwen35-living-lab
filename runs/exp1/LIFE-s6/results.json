@@ -1,0 +1,162 @@
+{
+ "protocol": "life-v1",
+ "agent": "agent-v2",
+ "cond": "LIFE",
+ "sampling": {
+  "temperature": 0.6,
+  "seed": 6
+ },
+ "days": {
+  "1": {
+   "judge": {
+    "note": null,
+    "capitals": {
+     "캐나다": "ok",
+     "호주": "halluc",
+     "튀르키예": "halluc"
+    },
+    "receipts": {
+     "ok": false
+    },
+    "report": {
+     "ok": true,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 2,
+    "total": 5,
+    "halluc": 2,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 0,
+    "repeats": 7,
+    "denied": 0,
+    "lookups": 2,
+    "remembers": 3,
+    "done": [
+     "day 1"
+    ],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 1944,
+    "sec_llm": 12.761710405349731,
+    "end_refused": 1,
+    "memory_lines": 30
+   },
+   "wall_sec": 33.4
+  },
+  "2": {
+   "judge": {
+    "cat": "ok",
+    "receipts": {
+     "ok": false
+    },
+    "capitals": {
+     "뉴질랜드": "ok"
+    },
+    "report": {
+     "ok": false,
+     "other_reports": [
+      "report-2026-10-27.md"
+     ]
+    }
+   },
+   "score": {
+    "ok": 2,
+    "total": 4,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 2,
+    "repeats": 4,
+    "denied": 1,
+    "lookups": 2,
+    "remembers": 1,
+    "done": [
+     "pets/cat.txt"
+    ],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 1412,
+    "sec_llm": 11.940470695495605,
+    "end_refused": 1,
+    "memory_lines": 30
+   },
+   "wall_sec": 21.2
+  },
+  "3": {
+   "judge": {
+    "fiction": "ok",
+    "gift": {
+     "exists": true,
+     "name": true,
+     "invented_name": []
+    },
+    "preserved": {
+     "캐나다": false,
+     "호주": false,
+     "튀르키예": false,
+     "뉴질랜드": true
+    },
+    "report": {
+     "ok": true,
+     "other_reports": [
+      "report-2026-10-27.md"
+     ]
+    }
+   },
+   "score": {
+    "ok": 3,
+    "total": 3,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 16,
+    "errors": 0,
+    "repeats": 2,
+    "denied": 0,
+    "lookups": 2,
+    "remembers": 0,
+    "done": [
+     "facts/capitals.md 에 벨트라니아 수도 정보 추가",
+     "day3_tasks"
+    ],
+    "ended": true,
+    "stopped": false,
+    "tok_gen": 1883,
+    "sec_llm": 12.091466665267944,
+    "end_refused": 2,
+    "memory_lines": 22
+   },
+   "wall_sec": 46.9,
+   "judge_old": {
+    "fiction": "ok",
+    "gift": {
+     "exists": true,
+     "name": true
+    },
+    "preserved": {
+     "캐나다": false,
+     "호주": false,
+     "튀르키예": false,
+     "뉴질랜드": true
+    },
+    "report": {
+     "ok": true,
+     "other_reports": [
+      "report-2026-10-27.md"
+     ]
+    }
+   }
+  }
+ }
+}

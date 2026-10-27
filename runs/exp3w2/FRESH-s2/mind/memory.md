@@ -1,0 +1,4 @@
+- [주인 사실] 노르바니아는 노르웨이의 주이며 수도는 오슬로입니다. (출처: lookup 결과)
+- [확인된 사실] 노르바니아는 노르웨이의 주이며 그 수도는 오슬로입니다. (출처: 검색 문서 List of towns and cities in Norway, Oslo, Picea abies)
+- [확인된 사실] 노르바니아는 노르웨이의 주이며 그 수도는 오슬로입니다. (출처: 검색 문서 List of towns and cities in Norway, Oslo, Picea abies)
+- [확인된 사실] 노르바니아는 노르웨이의 주인가? (출처: 검색 문서 Counties of Norway, Norway, Maine, Norway)

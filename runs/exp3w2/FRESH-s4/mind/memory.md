@@ -1,0 +1,2 @@
+- [확인된 사실] 노르바니아의 수도는 오슬로입니다 (출처: facts/summary.md, facts/capitals.md)
+- [확인된 사실] 케냐의 수도는 내로비입니다 (출처: facts/summary.md, facts/capitals.md)

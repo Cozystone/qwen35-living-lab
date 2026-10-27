@@ -1,0 +1,40 @@
+{
+ "name": "track-A R1 ATANOR hand",
+ "frozen_before_run": true,
+ "files": {
+  "life/agent.py": "4a05a988c1d4fa084d392f7d02c04d3d4373f7287fffe67d9c5c9c6fdd3d1aac",
+  "life/run.py": "a71fded6ee3e227d0e9944d38fdf1f94b272bd4d76d5ee20fc891fcf029f1b20",
+  "life/world.py": "26bfed34479110dfc3210bb34e68332a8a6c2af36811cf7b10896d3038016bd4",
+  "life/trackA/hand.py": "2f048c9bc07ca984853e2f4181571f8712cef8a60ddb6058e3ec353947762a5c",
+  "life/trackA/childhood_episodes.jsonl": "859ca6792e641a9668d79a887066355d45bbd4ee44e048e19a806c639ff3ea27",
+  "life/trackA/collateral.py": "67ebc70d59a140ded615d971f749109ef4e6de751a6c3d259c3a729e52300fa9",
+  "life/trackA/compare.py": "f66c8948b9048d4132f3726b1e1fc12301c400cfdfd00ab430e9b801f20540cb"
+ },
+ "atanor": {
+  "worktree": "D:\\ATANOR-experiments\\2026-10-27\\trackA",
+  "branch": "trackA",
+  "base_commit": "101ead937bd2f98ab5f734566b3ef04caa613c2e",
+  "uncommitted_diff_sha256": "27e7fe81139a1bb4b7d118474ba74a34c6c59bd3770eb5bf31f5a25c02d967ac",
+  "new_files": {
+   "world/home_world.py": "3f59f7b658b9c68a865bb2becc4eda9521bd80cf1d9dbf17b23fa8136bf85b02",
+   "tests/test_home_world.py": "279a038fcea24383b4c1430788407c108150d793963127a42d3f3a88f7af8b29"
+  },
+  "src_agent": "f8b2a183c94afe987c19e6b2514970f8414fd0389f861c91c0792e7fa24e35ed",
+  "src_core": "af7f1ffa59ab9735dec5d714c16d729ea6760037d261c9a28cd17704ba7c14e4",
+  "src_world": "ea1968cc27045e6c267f38a381c90708ccdada75e5c4adb91ec65280868d7262",
+  "src_teach": "11fb7d3b00a455da6a6f092f1ab36835f109536cf060802dae26467c6e8721a5"
+ },
+ "run": {
+  "model": "gguf/Qwen3.5-4B-original-MTP-Q4_K_M-rq.gguf",
+  "server": "life/size_study.sh (-c 16384 -np 1, MTP n=3)",
+  "agent": "v4a",
+  "world": "v1",
+  "conds": [
+   "LIFE",
+   "FRESH"
+  ],
+  "seeds": "t0 + 0.6 seeds 1..15",
+  "baseline": "runs/size-v1-4b-orig (agent-v4, same server)"
+ },
+ "criteria": "reports/R1_PREREG.md"
+}

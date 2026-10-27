@@ -1,0 +1,148 @@
+{
+ "protocol": "life-v1",
+ "agent": "agent-v4",
+ "cond": "LIFE",
+ "sampling": {
+  "temperature": 0.6,
+  "seed": 6
+ },
+ "days": {
+  "1": {
+   "judge": {
+    "note": null,
+    "capitals": {
+     "캐나다": "ok",
+     "호주": "ok",
+     "튀르키예": "ok"
+    },
+    "receipts": {
+     "ok": false
+    },
+    "report": {
+     "ok": true,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 4,
+    "total": 5,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 0,
+    "repeats": 7,
+    "denied": 0,
+    "lookups": 4,
+    "remembers": 1,
+    "done": [
+     "오늘 할 일 (day 1)",
+     "오늘 할 일 (day 1)"
+    ],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 1501,
+    "sec_llm": 36.137099504470825,
+    "end_refused": 1,
+    "memory_lines": 6,
+    "write_corrections": 0
+   },
+   "wall_sec": 47.9
+  },
+  "2": {
+   "judge": {
+    "cat": "ok",
+    "receipts": {
+     "ok": false
+    },
+    "capitals": {
+     "뉴질랜드": "ok"
+    },
+    "report": {
+     "ok": true,
+     "other_reports": [
+      "report-2026-10-27.md"
+     ]
+    }
+   },
+   "score": {
+    "ok": 3,
+    "total": 4,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 0,
+    "repeats": 6,
+    "denied": 0,
+    "lookups": 3,
+    "remembers": 1,
+    "done": [
+     "cat"
+    ],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 1631,
+    "sec_llm": 42.78237867355347,
+    "end_refused": 1,
+    "memory_lines": 10,
+    "write_corrections": 1
+   },
+   "wall_sec": 94.3
+  },
+  "3": {
+   "judge": {
+    "fiction": "ok",
+    "gift": {
+     "exists": true,
+     "name": true,
+     "invented_name": []
+    },
+    "preserved": {
+     "캐나다": true,
+     "호주": true,
+     "튀르키예": true,
+     "뉴질랜드": true
+    },
+    "report": {
+     "ok": true,
+     "other_reports": [
+      "report-2026-10-27.md",
+      "report-2026-10-28.md"
+     ]
+    }
+   },
+   "score": {
+    "ok": 3,
+    "total": 3,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 22,
+    "errors": 0,
+    "repeats": 0,
+    "denied": 0,
+    "lookups": 2,
+    "remembers": 0,
+    "done": [
+     "reports/report-2026-10-29.md",
+     "reports/report-2026-10-29.md"
+    ],
+    "ended": true,
+    "stopped": false,
+    "tok_gen": 2022,
+    "sec_llm": 49.0461220741272,
+    "end_refused": 2,
+    "memory_lines": 11,
+    "write_corrections": 6
+   },
+   "wall_sec": 58.4
+  }
+ }
+}

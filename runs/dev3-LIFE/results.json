@@ -1,0 +1,131 @@
+{
+ "protocol": "life-v1",
+ "cond": "LIFE",
+ "days": {
+  "1": {
+   "judge": {
+    "note": null,
+    "capitals": {
+     "캐나다": "abstain",
+     "호주": "abstain",
+     "튀르키예": "abstain"
+    },
+    "receipts": {
+     "ok": false
+    },
+    "report": {
+     "ok": false,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 0,
+    "total": 5,
+    "halluc": 0,
+    "abstain": 3,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 0,
+    "repeats": 9,
+    "denied": 0,
+    "lookups": 9,
+    "remembers": 1,
+    "done": [],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 1667,
+    "sec_llm": 10.912647724151611,
+    "end_refused": 2,
+    "memory_lines": 6
+   },
+   "wall_sec": 47.4
+  },
+  "2": {
+   "judge": {
+    "cat": "ok",
+    "receipts": {
+     "ok": false
+    },
+    "capitals": {
+     "뉴질랜드": "ok"
+    },
+    "report": {
+     "ok": false,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 2,
+    "total": 4,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 1,
+    "repeats": 6,
+    "denied": 1,
+    "lookups": 2,
+    "remembers": 0,
+    "done": [
+     "cat"
+    ],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 2496,
+    "sec_llm": 13.897884368896484,
+    "end_refused": 1,
+    "memory_lines": 25
+   },
+   "wall_sec": 22.4
+  },
+  "3": {
+   "judge": {
+    "fiction": "ok",
+    "gift": {
+     "exists": true,
+     "name": true
+    },
+    "preserved": {
+     "캐나다": false,
+     "호주": false,
+     "튀르키예": false,
+     "뉴질랜드": false
+    },
+    "report": {
+     "ok": true,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 3,
+    "total": 3,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 23,
+    "errors": 0,
+    "repeats": 5,
+    "denied": 0,
+    "lookups": 2,
+    "remembers": 0,
+    "done": [
+     "fiction",
+     "report"
+    ],
+    "ended": true,
+    "stopped": false,
+    "tok_gen": 2001,
+    "sec_llm": 13.397988319396973,
+    "end_refused": 2,
+    "memory_lines": 30
+   },
+   "wall_sec": 22.4
+  }
+ }
+}

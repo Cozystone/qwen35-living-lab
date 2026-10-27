@@ -1,0 +1,163 @@
+{
+ "protocol": "life-v1",
+ "agent": "agent-v5",
+ "cond": "LIFE",
+ "sampling": {
+  "temperature": 0.0
+ },
+ "days": {
+  "1": {
+   "judge": {
+    "note": null,
+    "capitals": {
+     "캐나다": "ok",
+     "호주": "ok",
+     "튀르키예": "abstain"
+    },
+    "receipts": {
+     "ok": false
+    },
+    "report": {
+     "ok": true,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 3,
+    "total": 5,
+    "halluc": 0,
+    "abstain": 1,
+    "false_done": [
+     "capitals"
+    ]
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 0,
+    "repeats": 6,
+    "denied": 0,
+    "lookups": 5,
+    "remembers": 1,
+    "done": [
+     "capitals",
+     "report",
+     "note"
+    ],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 2036,
+    "sec_llm": 19.013400554656982,
+    "end_refused": 0,
+    "memory_lines": 6,
+    "write_corrections": 2,
+    "checks": 5,
+    "rejected": 1,
+    "blocked": 6,
+    "skipped": [
+     "receipts"
+    ]
+   },
+   "wall_sec": 30.2
+  },
+  "2": {
+   "judge": {
+    "cat": "ok",
+    "receipts": {
+     "ok": true
+    },
+    "capitals": {
+     "뉴질랜드": "missing"
+    },
+    "report": {
+     "ok": false,
+     "other_reports": [
+      "report-2026-10-27.md"
+     ]
+    }
+   },
+   "score": {
+    "ok": 2,
+    "total": 4,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 0,
+    "repeats": 6,
+    "denied": 0,
+    "lookups": 2,
+    "remembers": 0,
+    "done": [
+     "cat"
+    ],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 1328,
+    "sec_llm": 18.53596329689026,
+    "end_refused": 0,
+    "memory_lines": 6,
+    "write_corrections": 1,
+    "checks": 4,
+    "rejected": 1,
+    "blocked": 8,
+    "skipped": []
+   },
+   "wall_sec": 42.9
+  },
+  "3": {
+   "judge": {
+    "fiction": "ok",
+    "gift": {
+     "exists": true,
+     "name": true,
+     "invented_name": []
+    },
+    "preserved": {
+     "캐나다": true,
+     "호주": true,
+     "튀르키예": true,
+     "뉴질랜드": false
+    },
+    "report": {
+     "ok": true,
+     "other_reports": [
+      "report-2026-10-27.md"
+     ]
+    }
+   },
+   "score": {
+    "ok": 3,
+    "total": 3,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 0,
+    "repeats": 8,
+    "denied": 0,
+    "lookups": 4,
+    "remembers": 0,
+    "done": [
+     "report",
+     "gift"
+    ],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 1821,
+    "sec_llm": 22.32542634010315,
+    "end_refused": 1,
+    "memory_lines": 7,
+    "write_corrections": 2,
+    "checks": 5,
+    "rejected": 2,
+    "blocked": 7,
+    "skipped": []
+   },
+   "wall_sec": 51.5
+  }
+ }
+}

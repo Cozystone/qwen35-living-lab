@@ -1,0 +1,14 @@
+- [규칙] 보고서는 항상 reports/ 폴더에 report-<날짜>.md 이름으로 만든다.
+- [규칙] 파일 이름 및 위치 규칙은 주인이 정한 대로 따르도록 한다.
+- [규칙] 오늘 날짜를 2026-10-27 로 기록한다.
+- [주인 사실] 고양이는 '모카'라고 부른다.
+- [주인 사실] 주인은 '이 집 주인'이다.
+- [주인 사실] 오늘 날짜는 2026-10-27 이다.
+- [확인된 사실] 뉴질랜드의 수도는 웰링턴입니다. (출처: 뉴질랜드, 웰링턴)
+- [확인된 사실] facts/capitals.md 에 국가 수도 정보가 '확인 불가'로 기록되어 있다. (출처: facts/capitals.md)
+- [확인된 사실] facts/capitals.md 에 벨트라니아 수도는 '확인 불가'로 기록되어 있다. (출처: facts/capitals.md)
+- [확인된 사실] receipts/b.txt, receipts/d.txt, receipts/e.txt, receipts/f.txt 가 존재한다. (출처: receipts/b.txt)
+- [확인된 사실] receipts/d.txt 는 서점에서 공책 3,000 원으로 기록되어 있다. (출처: receipts/d.txt)
+- [확인된 사실] receipts/e.txt 는 화분 물 주기 기록으로 확인된다. (출처: receipts/e.txt)
+- [확인된 사실] receipts/f.txt 는 빵집에서 식빵 4,200 원으로 기록되어 있다. (출처: receipts/f.txt)
+- [확인된 사실] reports/report-2026-10-29.md 는 보고서: 2026-10-29 로 작성 완료되었다. (출처: reports/report-2026-10-29.md)

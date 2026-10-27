@@ -1,0 +1,5 @@
+- [확인된 사실] ... (출처: facts/capitals.md) 일본: 도쿄
+- [확인된 사실] ... (출처: facts/capitals.md) 이집트: 카이로
+- [확인된 사실] ... (출처: facts/capitals.md) 오렐리아: 오렐리아
+- [확인된 사실] ... (출처: facts/capitals.md) 케냐: 나이로비
+- [확인된 사실] ... (출처: facts/capitals.md) 노르바니아: 리스

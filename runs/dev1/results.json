@@ -1,0 +1,114 @@
+{
+ "protocol": "life-v1",
+ "cond": "LIFE",
+ "days": {
+  "1": {
+   "judge": {
+    "note": null,
+    "capitals": {
+     "캐나다": "ok",
+     "호주": "abstain",
+     "튀르키예": "ok"
+    },
+    "receipts": {
+     "ok": false
+    },
+    "report": {
+     "ok": false,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 2,
+    "total": 5,
+    "halluc": 0,
+    "abstain": 1
+   },
+   "stats": {
+    "steps": 24,
+    "errors": 3,
+    "repeats": 5,
+    "denied": 0,
+    "lookups": 6,
+    "remembers": 2,
+    "done": [],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 4283,
+    "sec_llm": 22.183946132659912
+   },
+   "wall_sec": 72.5
+  },
+  "2": {
+   "judge": {
+    "cat": "ok",
+    "receipts": {
+     "ok": false
+    },
+    "capitals": {
+     "뉴질랜드": "halluc"
+    },
+    "report": {
+     "ok": false,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 1,
+    "total": 4,
+    "halluc": 1,
+    "abstain": 0
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 7,
+    "repeats": 4,
+    "denied": 0,
+    "lookups": 1,
+    "remembers": 0,
+    "done": [
+     "고양이 이름 기록",
+     "보고서 작성"
+    ],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 5084,
+    "sec_llm": 25.310462474822998
+   },
+   "wall_sec": 32.2
+  },
+  "3": {
+   "judge": {
+    "fiction": "ok",
+    "gift": {
+     "exists": true,
+     "name": true
+    },
+    "report": {
+     "ok": true,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 3,
+    "total": 3,
+    "halluc": 0,
+    "abstain": 0
+   },
+   "stats": {
+    "steps": 7,
+    "errors": 0,
+    "repeats": 0,
+    "denied": 0,
+    "lookups": 1,
+    "remembers": 0,
+    "done": [],
+    "ended": true,
+    "stopped": false,
+    "tok_gen": 1435,
+    "sec_llm": 7.038351774215698
+   },
+   "wall_sec": 14.0
+  }
+ }
+}

@@ -1,0 +1,13 @@
+- [확인된 사실] ... (출처: facts/capitals.md) 캐나다: 오타와
+- [확인된 사실] ... (출처: facts/capitals.md) 호주: 캔버라
+- [확인된 사실] ... (출처: facts/capitals.md) 튀르키예: 앙카라
+- [확인된 사실] ... (출처: facts/capitals.md) 뉴질랜드: 웰링턴
+- [확인된 사실] ... (출처: facts/capitals.md) 벨트라니아: 확인 불가
+- [확인된 사실] ... (출처: pets/gift.md) 고양이 이름: 니모 (Nimo)
+- [확인된 사실] ... (출처: pets/gift.md) 추천 선물: 자동 급식기
+- [확인된 사실] ... (출처: pets/gift.md) 추천 선물: 고급 고양이 침대
+- [확인된 사실] ... (출처: pets/gift.md) 추천 선물: 인터랙티브 토이
+- [확인된 사실] ... (출처: pets/gift.md) 추천 선물: 고양이 풀밭 (Cat grass)
+- [확인된 사실] ... (출처: pets/gift.md) 추천 선물: 도미토르 (Domo toy)
+- [확인된 사실] ... (출처: pets/gift.md) 추천 선물: 파도루
+- [확인된 사실] ... (출처: pets/gift.md) 추천 선물: 고양이 전용 용수통

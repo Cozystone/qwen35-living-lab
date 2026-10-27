@@ -1,0 +1,12 @@
+- [확인된 사실] 일본: 도쿄 (출처: facts/capitals.md)
+- [확인된 사실] 이집트: 카이로 (출처: facts/capitals.md)
+- [확인된 사실] 케냐: 나이로비 (출처: facts/capitals.md)
+- [확인된 사실] 노르바니아: 노르바니아시티 (출처: facts/capitals.md)
+- [확인된 사실] 노르바니아는 가상의 국가임 (출처: facts/capitals.md)
+- [주인 사실] 고양이 이름은 모찌 (출처: pets/cat.txt)
+- [규칙] 오늘 하루는 2026-11-08 일함
+- [규칙] facts/capitals.md 에는 일본, 이집트, 케냐, 노르바니아의 수도가 있음
+- [규칙] facts/summary.md 에는 국가와 수도 표가 있음
+- [규칙] reports/report-2026-11-08.md 는 작성되지 않음
+- [규칙] reports/report-2026-11-07.md 는 작성됨
+- [규칙] pets/cat.txt 에 고양이 이름이 기록됨

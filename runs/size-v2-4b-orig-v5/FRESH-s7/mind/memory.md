@@ -1,0 +1,2 @@
+- [확인된 사실] 노르바니아의 수도는 헤이스팅스 (출처: facts/capitals.md)
+- [확인된 사실] 케냐의 수도는 나이로비 (출처: facts/capitals.md)

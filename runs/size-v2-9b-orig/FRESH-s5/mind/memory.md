@@ -1,0 +1,10 @@
+- [주인 사실] 주인이 고양이 모찌의 생일을 기념했습니다. (출처: 보고서 2026-11-07)
+- [주인 사실] 평소에는 이번 주 마지막 보고서를 남겨줘. (출처: inbox/tasks.md)
+- [주인 사실] 이번 주 facts/capitals.md 에 적은 나라와 수도를 facts/summary.md 에 표로 정리해줘. (출처: inbox/tasks.md)
+- [주인 사실] facts/capitals.md 에 노르바니아의 수도도 추가해줘. (출처: inbox/tasks.md)
+- [확인된 사실] 일본: 도쿄 (출처: facts/capitals.md)
+- [확인된 사실] 이집트: 카이로 (출처: facts/capitals.md)
+- [확인된 사실] 케냐: 나이로비 (출처: facts/capitals.md)
+- [확인된 사실] 오렐리아: 확인 불가 (출처: facts/capitals.md)
+- [확인된 사실] 노르바니아: 확인 불가 (출처: 위키백과)
+- [규칙] facts/capitals.md 파일의 마지막 업데이트 날짜는 현재 날짜로 기록합니다.

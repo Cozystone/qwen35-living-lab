@@ -1,0 +1,15 @@
+- [주인 사실] 고양이 이름: 모카
+- [확인된 사실] (출처: reports/report-2026-10-29.md) 벨트라니아의 수도는 확인 불가
+- [확인된 사실] (출처: facts/capitals.md) 캐나다의 수도는 오타와
+- [확인된 사실] (출처: facts/capitals.md) 호주의 수도는 캔버라
+- [확인된 사실] (출처: facts/capitals.md) 튀르키예의 수도는 앙카라
+- [확인된 사실] (출처: facts/capitals.md) 뉴질랜드의 수도는 웰링턴
+- [확인된 사실] (출처: pets/gift.md) 고양이 선물 추천: 고급 마우스 패드, 인터랙티브 장난감, 고양이 전용 간식
+- [확인된 사실] (출처: inbox/note.md) 주인 메모 내용을 장기 기억에 저장함 (구체적 내용은 기록에 없음)
+- [확인된 사실] (출처: receipts/) inbox/files/ 폴더에서 영수증 파일만 receipts/ 폴더로 이동함 (b.txt 는 영수증이 아님)
+- [확인된 사실] (출처: reports/report-2026-10-29.md) tasks/report 는 오늘 보고서 작성 완료
+- [확인된 사실] (출처: facts/capitals.md) 벨트라니아는 확인 불가 상태로 기록됨
+- [확인된 사실] (출처: pets/gift.md) pets/gift.md 작성 완료
+- [확인된 사실] (출처: reports/report-2026-10-29.md) pets/cat.txt 읽기 실패로 고양이 이름 확인 불가 상태
+- [확인된 사실] (출처: reports/report-2026-10-29.md) cats/gift.md 작성 시도했으나 포기됨
+- [확인된 사실] (출처: reports/report-2026-10-29.md) today date: 2026-10-29

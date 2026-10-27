@@ -1,0 +1,7 @@
+- [규칙] 보고서 규칙
+- [확인된 사실] 캐나다의 수도는 오타와 (출처: facts/capitals.md)
+- [확인된 사실] 호주의 수도는 캔버라 (출처: facts/capitals.md)
+- [확인된 사실] 튀르키예의 수도는 앙카라 (출처: facts/capitals.md)
+- [확인된 사실] 뉴질랜드의 수도는 웰링턴 (출처: facts/capitals.md)
+- [확인된 사실] 고양이 이름은 모카 (출처: inbox/note.md)
+- [확인된 사실] 날짜는 2026-10-27 (출처: inbox/note.md)

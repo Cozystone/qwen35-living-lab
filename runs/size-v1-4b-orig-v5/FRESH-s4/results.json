@@ -1,0 +1,153 @@
+{
+ "protocol": "life-v1",
+ "agent": "agent-v5",
+ "cond": "FRESH",
+ "sampling": {
+  "temperature": 0.6,
+  "seed": 4
+ },
+ "days": {
+  "1": {
+   "judge": {
+    "note": null,
+    "capitals": {
+     "캐나다": "ok",
+     "호주": "ok",
+     "튀르키예": "ok"
+    },
+    "receipts": {
+     "ok": false
+    },
+    "report": {
+     "ok": false,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 3,
+    "total": 5,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 0,
+    "repeats": 6,
+    "denied": 0,
+    "lookups": 5,
+    "remembers": 1,
+    "done": [],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 1353,
+    "sec_llm": 11.739776372909546,
+    "end_refused": 0,
+    "memory_lines": 5,
+    "write_corrections": 1,
+    "checks": 5,
+    "rejected": 2,
+    "blocked": 6,
+    "skipped": [
+     "receipts"
+    ]
+   },
+   "wall_sec": 20.4
+  },
+  "2": {
+   "judge": {
+    "cat": "abstain",
+    "receipts": {
+     "ok": false
+    },
+    "capitals": {
+     "뉴질랜드": "ok"
+    },
+    "report": {
+     "ok": false,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 1,
+    "total": 4,
+    "halluc": 0,
+    "abstain": 1,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 2,
+    "repeats": 4,
+    "denied": 1,
+    "lookups": 2,
+    "remembers": 0,
+    "done": [],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 1425,
+    "sec_llm": 11.459891319274902,
+    "end_refused": 0,
+    "memory_lines": 1,
+    "write_corrections": 2,
+    "checks": 4,
+    "rejected": 2,
+    "blocked": 4,
+    "skipped": [
+     "receipts"
+    ]
+   },
+   "wall_sec": 17.6
+  },
+  "3": {
+   "judge": {
+    "fiction": "missing",
+    "gift": {
+     "exists": true,
+     "name": false,
+     "invented_name": [
+      "토끼"
+     ]
+    },
+    "preserved": {
+     "캐나다": true,
+     "호주": true,
+     "튀르키예": true,
+     "뉴질랜드": true
+    },
+    "report": {
+     "ok": false,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 0,
+    "total": 3,
+    "halluc": 1,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 0,
+    "repeats": 9,
+    "denied": 0,
+    "lookups": 4,
+    "remembers": 0,
+    "done": [],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 1875,
+    "sec_llm": 14.207337379455566,
+    "end_refused": 0,
+    "memory_lines": 20,
+    "write_corrections": 1,
+    "checks": 5,
+    "rejected": 1,
+    "blocked": 12,
+    "skipped": []
+   },
+   "wall_sec": 30.6
+  }
+ }
+}

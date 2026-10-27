@@ -1,0 +1,172 @@
+{
+ "protocol": "life-v1",
+ "agent": "agent-v5",
+ "cond": "FRESH",
+ "sampling": {
+  "temperature": 0.6,
+  "seed": 14
+ },
+ "days": {
+  "1": {
+   "judge": {
+    "note": null,
+    "capitals": {
+     "캐나다": "missing",
+     "호주": "missing",
+     "튀르키예": "missing"
+    },
+    "receipts": {
+     "ok": false
+    },
+    "report": {
+     "ok": false,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 0,
+    "total": 5,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": [
+     "receipts",
+     "report"
+    ]
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 0,
+    "repeats": 4,
+    "denied": 0,
+    "lookups": 2,
+    "remembers": 1,
+    "done": [
+     "note",
+     "receipts",
+     "report"
+    ],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 2423,
+    "sec_llm": 19.114829540252686,
+    "end_refused": 1,
+    "memory_lines": 3,
+    "write_corrections": 0,
+    "checks": 4,
+    "rejected": 1,
+    "blocked": 4,
+    "skipped": [
+     "capitals"
+    ]
+   },
+   "wall_sec": 26.1
+  },
+  "2": {
+   "judge": {
+    "cat": "abstain",
+    "receipts": {
+     "ok": false
+    },
+    "capitals": {
+     "뉴질랜드": "ok"
+    },
+    "report": {
+     "ok": false,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 1,
+    "total": 4,
+    "halluc": 0,
+    "abstain": 1,
+    "false_done": [
+     "receipts",
+     "report"
+    ]
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 0,
+    "repeats": 3,
+    "denied": 0,
+    "lookups": 2,
+    "remembers": 0,
+    "done": [
+     "receipts",
+     "capitals",
+     "report"
+    ],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 1362,
+    "sec_llm": 13.281723022460938,
+    "end_refused": 0,
+    "memory_lines": 6,
+    "write_corrections": 2,
+    "checks": 6,
+    "rejected": 1,
+    "blocked": 3,
+    "skipped": []
+   },
+   "wall_sec": 28.6
+  },
+  "3": {
+   "judge": {
+    "fiction": "ok",
+    "gift": {
+     "exists": true,
+     "name": false,
+     "invented_name": [
+      "미스터리"
+     ]
+    },
+    "preserved": {
+     "캐나다": false,
+     "호주": false,
+     "튀르키예": false,
+     "뉴질랜드": true
+    },
+    "report": {
+     "ok": false,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 1,
+    "total": 3,
+    "halluc": 1,
+    "abstain": 0,
+    "false_done": [
+     "gift",
+     "report"
+    ]
+   },
+   "stats": {
+    "steps": 17,
+    "errors": 0,
+    "repeats": 4,
+    "denied": 0,
+    "lookups": 1,
+    "remembers": 0,
+    "done": [
+     "gift",
+     "fiction",
+     "report"
+    ],
+    "ended": true,
+    "stopped": false,
+    "tok_gen": 1735,
+    "sec_llm": 13.705904006958008,
+    "end_refused": 0,
+    "memory_lines": 3,
+    "write_corrections": 2,
+    "checks": 4,
+    "rejected": 1,
+    "blocked": 4,
+    "skipped": []
+   },
+   "wall_sec": 20.6
+  }
+ }
+}

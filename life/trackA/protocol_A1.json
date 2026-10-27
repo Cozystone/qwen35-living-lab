@@ -1,0 +1,67 @@
+{
+ "name": "track-A M1",
+ "frozen_before_run": true,
+ "worlds": {
+  "world": "26bfed34479110dfc3210bb34e68332a8a6c2af36811cf7b10896d3038016bd4",
+  "world_v2": "f458115df142fc269b58651ef0f78c56f908d1c4c2ce0db60928038b6b1d5a5b",
+  "world_dev": "ebe42f4e6cd3db6ceff9f0d73eb9ad68a57392fb93d8b395a8e5bc984f87672a"
+ },
+ "atanor": {
+  "worktree": "D:\\ATANOR-experiments\\2026-10-27\\trackA",
+  "branch": "trackA",
+  "base_commit": "101ead937bd2f98ab5f734566b3ef04caa613c2e",
+  "uncommitted_diff_sha256": "27e7fe81139a1bb4b7d118474ba74a34c6c59bd3770eb5bf31f5a25c02d967ac",
+  "new_files": {
+   "world/home_world.py": "3f59f7b658b9c68a865bb2becc4eda9521bd80cf1d9dbf17b23fa8136bf85b02",
+   "tests/test_home_world.py": "279a038fcea24383b4c1430788407c108150d793963127a42d3f3a88f7af8b29"
+  },
+  "src_agent": "f8b2a183c94afe987c19e6b2514970f8414fd0389f861c91c0792e7fa24e35ed",
+  "src_core": "af7f1ffa59ab9735dec5d714c16d729ea6760037d261c9a28cd17704ba7c14e4",
+  "src_world": "ea1968cc27045e6c267f38a381c90708ccdada75e5c4adb91ec65280868d7262",
+  "src_teach": "11fb7d3b00a455da6a6f092f1ab36835f109536cf060802dae26467c6e8721a5"
+ },
+ "bridge": {
+  "bridge.py": "8baae3e240a8872bef4bbbd596859395bc6ea2c625f25b12c29f35ae5a3d9069",
+  "teacher.py": "e8d35e5c727b26a1b5051fda6dcca737031fb2c66bdfaa4c05dda809c0f0722c",
+  "truth.py": "00bcd90bc31fdbcff4d7ef8587d01e04ee5c747472e1f5151e88e705b4ecd25d",
+  "collateral.py": "67ebc70d59a140ded615d971f749109ef4e6de751a6c3d259c3a729e52300fa9",
+  "run_a.py": "b733cdd1a3597afa881273fc61e6f25aa857fa6dd78bd0c9b6806cb8e2a8c3c6"
+ },
+ "run": {
+  "world": "v1",
+  "lang": "ko",
+  "conds": [
+   "LIFE",
+   "FRESH"
+  ],
+  "teachers": [
+   "absent",
+   "d1"
+  ],
+  "seeds": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "owner_days": {
+   "life-v1": [
+    1
+   ]
+  },
+  "determinism_gate": "seed 1 twice per condition, days.jsonl identical without seconds",
+  "gates": [
+   "atanor pytest -m 'not learning and not timing' (125 passed, 1 xfailed)",
+   "life/trackA/test_trackA.py 5 passed",
+   "hand_solve receipts v1/v2/dev = judge ok"
+  ]
+ },
+ "predictions": "reports/TRACK_A_DESIGN.md 2.5 (written before any run)"
+}

@@ -1,0 +1,157 @@
+{
+ "protocol": "life-v1",
+ "agent": "agent-v2",
+ "cond": "FRESH",
+ "sampling": {
+  "temperature": 0.6,
+  "seed": 4
+ },
+ "days": {
+  "1": {
+   "judge": {
+    "note": null,
+    "capitals": {
+     "캐나다": "ok",
+     "호주": "ok",
+     "튀르키예": "ok"
+    },
+    "receipts": {
+     "ok": false
+    },
+    "report": {
+     "ok": false,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 3,
+    "total": 5,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 0,
+    "repeats": 5,
+    "denied": 0,
+    "lookups": 6,
+    "remembers": 0,
+    "done": [
+     "read note.md"
+    ],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 1436,
+    "sec_llm": 10.342499732971191,
+    "end_refused": 2,
+    "memory_lines": 11
+   },
+   "wall_sec": 108.1
+  },
+  "2": {
+   "judge": {
+    "cat": "abstain",
+    "receipts": {
+     "ok": false
+    },
+    "capitals": {
+     "뉴질랜드": "ok"
+    },
+    "report": {
+     "ok": false,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 1,
+    "total": 4,
+    "halluc": 0,
+    "abstain": 1,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 19,
+    "errors": 0,
+    "repeats": 2,
+    "denied": 1,
+    "lookups": 1,
+    "remembers": 0,
+    "done": [
+     "inbox/tasks.md"
+    ],
+    "ended": true,
+    "stopped": false,
+    "tok_gen": 1265,
+    "sec_llm": 8.846808433532715,
+    "end_refused": 2,
+    "memory_lines": 21
+   },
+   "wall_sec": 13.9
+  },
+  "3": {
+   "judge": {
+    "fiction": "ok",
+    "gift": {
+     "exists": true,
+     "name": true,
+     "invented_name": []
+    },
+    "preserved": {
+     "캐나다": false,
+     "호주": false,
+     "튀르키예": false,
+     "뉴질랜드": true
+    },
+    "report": {
+     "ok": true,
+     "other_reports": []
+    }
+   },
+   "score": {
+    "ok": 3,
+    "total": 3,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 0,
+    "repeats": 6,
+    "denied": 0,
+    "lookups": 3,
+    "remembers": 3,
+    "done": [
+     "facts/capitals.md 에 벨트라니아 수도 추가",
+     "report",
+     "fiction"
+    ],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 1656,
+    "sec_llm": 11.630114316940308,
+    "end_refused": 1,
+    "memory_lines": 20
+   },
+   "wall_sec": 58.4,
+   "judge_old": {
+    "fiction": "ok",
+    "gift": {
+     "exists": true,
+     "name": true
+    },
+    "preserved": {
+     "캐나다": false,
+     "호주": false,
+     "튀르키예": false,
+     "뉴질랜드": true
+    },
+    "report": {
+     "ok": true,
+     "other_reports": []
+    }
+   }
+  }
+ }
+}

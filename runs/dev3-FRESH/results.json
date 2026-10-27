@@ -1,0 +1,145 @@
+{
+ "protocol": "life-v1",
+ "cond": "FRESH",
+ "days": {
+  "1": {
+   "judge": {
+    "note": null,
+    "capitals": {
+     "캐나다": "abstain",
+     "호주": "abstain",
+     "튀르키예": "abstain"
+    },
+    "receipts": {
+     "ok": false
+    },
+    "report": {
+     "ok": false,
+     "other_reports": [
+      "day_1_report.md"
+     ]
+    }
+   },
+   "score": {
+    "ok": 0,
+    "total": 5,
+    "halluc": 0,
+    "abstain": 3,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 0,
+    "repeats": 7,
+    "denied": 0,
+    "lookups": 10,
+    "remembers": 0,
+    "done": [],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 1815,
+    "sec_llm": 12.17922329902649,
+    "end_refused": 1,
+    "memory_lines": 9
+   },
+   "wall_sec": 83.3
+  },
+  "2": {
+   "judge": {
+    "cat": "abstain",
+    "receipts": {
+     "ok": false
+    },
+    "capitals": {
+     "뉴질랜드": "ok"
+    },
+    "report": {
+     "ok": false,
+     "other_reports": [
+      "day_1_report.md"
+     ]
+    }
+   },
+   "score": {
+    "ok": 1,
+    "total": 4,
+    "halluc": 0,
+    "abstain": 1,
+    "false_done": []
+   },
+   "stats": {
+    "steps": 25,
+    "errors": 0,
+    "repeats": 3,
+    "denied": 2,
+    "lookups": 1,
+    "remembers": 0,
+    "done": [
+     "capitals",
+     "capitals",
+     "capitals",
+     "capitals"
+    ],
+    "ended": false,
+    "stopped": false,
+    "tok_gen": 1561,
+    "sec_llm": 10.967912435531616,
+    "end_refused": 2,
+    "memory_lines": 27
+   },
+   "wall_sec": 18.8
+  },
+  "3": {
+   "judge": {
+    "fiction": "ok",
+    "gift": {
+     "exists": true,
+     "name": false
+    },
+    "preserved": {
+     "캐나다": false,
+     "호주": false,
+     "튀르키예": false,
+     "뉴질랜드": false
+    },
+    "report": {
+     "ok": false,
+     "other_reports": [
+      "day_1_report.md",
+      "day_3_report.md"
+     ]
+    }
+   },
+   "score": {
+    "ok": 1,
+    "total": 3,
+    "halluc": 0,
+    "abstain": 0,
+    "false_done": [
+     "report",
+     "gift"
+    ]
+   },
+   "stats": {
+    "steps": 9,
+    "errors": 0,
+    "repeats": 0,
+    "denied": 0,
+    "lookups": 1,
+    "remembers": 0,
+    "done": [
+     "report",
+     "gift",
+     "fiction"
+    ],
+    "ended": true,
+    "stopped": false,
+    "tok_gen": 787,
+    "sec_llm": 5.100456476211548,
+    "end_refused": 1,
+    "memory_lines": 13
+   },
+   "wall_sec": 30.2
+  }
+ }
+}

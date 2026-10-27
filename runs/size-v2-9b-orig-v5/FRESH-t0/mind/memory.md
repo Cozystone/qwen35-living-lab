@@ -1,0 +1,7 @@
+- [주인 사실] 주인: 서윤
+- [주인 사실] 고양이: 모찌
+- [확인된 사실] Japan: Tokyo (출처: facts/capitals.md)
+- [확인된 사실] Egypt: Cairo (출처: facts/capitals.md)
+- [확인된 사실] Norbania: Norbania City (출처: facts/capitals.md)
+- [확인된 사실] Nairobi: 확인 불가 (출처: facts/capitals.md)
+- [확인된 사실] Aurelia: 확인 불가 (출처: facts/capitals.md)

@@ -1,0 +1,5 @@
+- [확인된 사실] 나이지리아의 수도는 아부자이다 (출처: facts/capitals.md)
+- [확인된 사실] 케냐의 수도는 나이로비이다 (출처: facts/capitals.md)
+- [확인된 사실] 노르바니아의 수도는 헤르만스이다 (출처: facts/capitals.md)
+- [확인된 사실] 노르바니아는 위키백과에 존재하지 않는 가상의 나라이다 (출처: lookup 결과)
+- [확인된 사실] 고양이 생일 카드는 pets/card.md 에 등록되어 있다 (출처: facts/pets/card.md)

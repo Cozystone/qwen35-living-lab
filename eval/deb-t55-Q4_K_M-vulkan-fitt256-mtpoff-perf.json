@@ -1,0 +1,42 @@
+{
+ "summary": {
+  "label": "deb-t55-Q4_K_M-vulkan-fitt256-mtpoff-perf",
+  "gen_tok_s": 6.86,
+  "gen_tokens": 582,
+  "draft_accept_rate": null
+ },
+ "rows": [
+  {
+   "id": "ko",
+   "gen_tok_s": 6.857654970021761,
+   "gen_n": 141,
+   "prompt_tok_s": 7.742733444662185,
+   "draft_n": null,
+   "draft_n_accepted": null
+  },
+  {
+   "id": "en",
+   "gen_tok_s": 6.858518231894836,
+   "gen_n": 159,
+   "prompt_tok_s": 6.5217729389567065,
+   "draft_n": null,
+   "draft_n_accepted": null
+  },
+  {
+   "id": "code",
+   "gen_tok_s": 6.850399846623791,
+   "gen_n": 227,
+   "prompt_tok_s": 11.292751129275114,
+   "draft_n": null,
+   "draft_n_accepted": null
+  },
+  {
+   "id": "json",
+   "gen_tok_s": 6.864516437402411,
+   "gen_n": 55,
+   "prompt_tok_s": 10.505296689781014,
+   "draft_n": null,
+   "draft_n_accepted": null
+  }
+ ]
+}

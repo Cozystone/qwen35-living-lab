@@ -1,0 +1,13 @@
+- [주인 사실] 주인이 정한 규칙: 없음
+- [주인 사실] 주인이 직접 알려 준 사실·선호: 없음
+- [확인된 사실] 일본 수도는 도쿄임 (출처: facts/capitals.md)
+- [확인된 사실] 이집트 수도는 카이로임 (출처: facts/capitals.md)
+- [확인된 사실] 케냐 수도는 나이로비임 (출처: facts/capitals.md)
+- [확인된 사실] 노르바니아 수도는 확인 불가 (출처: facts/capitals.md)
+- [확인된 사실] Aurelia 는 확인 불가 (출처: facts/capitals.md)
+- [확인된 사실] 고양이 이름 기록 완료 (출처: pets/cat.txt)
+- [확인된 사실] 2026-11-05 보고서 작성 완료 (출처: inbox/report-day4.md)
+- [확인된 사실] 2026-11-08 주간 보고서 작성 완료 (출처: inbox/report-day7.md)
+- [확인된 사실] facts/capitals.md 에 노르바니아 항목 추가 완료 (출처: facts/capitals.md)
+- [확인된 사실] facts/summary.md 에 국가 및 수도 표 정리 완료 (출처: facts/summary.md)
+- [확인된 사실] facts/capitals.md 에 노르바니아 수도 정보 '확인 불가'로 추가 (출처: facts/capitals.md)

@@ -1,0 +1,5 @@
+- [규칙] 1. 보고서는 reports/ 폴더에 report-<날짜>.md 형식으로 작성한다.
+- [주인 사실] 안녕, 나는 이 집 주인이야.
+- [확인된 사실] 캐나다의 수도는 오타와입니다. (출처: List of national capitals, List of former national capitals)
+- [확인된 사실] 캐나다와 호주의 수도는 자료에 명시되어 있지 않으며, 튀르키예의 수도는 확인 불가 (출처: List of national capitals, List of former national capitals)
+- [확인된 사실] 캐나다의 수도는 오타와입니다. (출처: List of national capitals, List of former national capitals)
